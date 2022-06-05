@@ -1,4 +1,6 @@
 # Which model to use when?
 
-# References
+![Screenshot](images/'screenshot.png')
+
+## References
 https://www.linkedin.com/pulse/how-decide-which-model-use-anil-mahanty/
