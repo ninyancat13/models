@@ -4,7 +4,7 @@
 Note: something like random forest or decision trees can be used for both continuous and categorical problems
 
 ## Supervised Models
-
+<img src="(https://user-images.githubusercontent.com/43540613/172396264-336a4aa4-6757-4796-81aa-3cc564d375ef.png" width="500"/>
 
 ## Unsupervised Models
 
