@@ -17,6 +17,8 @@ The random forest algorithm is an extension of the bagging method as it utilizes
 Note: What is an ensemble method?
 Ensemble learning methods are made up of a set of classifiers—e.g. decision trees—and their predictions are aggregated to identify the most popular result. The most well-known ensemble methods are bagging, also known as bootstrap aggregation, and boosting. In 1996, Leo Breiman introduced the bagging method; in this method, a random sample of data in a training set is selected with replacement—meaning that the individual data points can be chosen more than once. After several data samples are generated, these models are then trained independently, and depending on the type of task—i.e. regression or classification—the average or majority of those predictions yield a more accurate estimate. This approach is commonly used to reduce variance within a noisy dataset.
 
+Reference: https://www.ibm.com/cloud/learn/random-forest
+
 ## Unsupervised Models
 
 
