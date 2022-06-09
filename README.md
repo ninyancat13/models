@@ -19,6 +19,13 @@ Ensemble learning methods are made up of a set of classifiers - e.g. decision tr
 
 Reference: https://www.ibm.com/cloud/learn/random-forest
 
+### Logistic Regression
+Logistic regression is a process of modeling the probability of a discrete outcome given an input variable. The most common logistic regression models a binary outcome; something that can take two values such as true/false, yes/no, and so on.
+
+Note:
+Should I use logistic regression or a decision tree?
+Decision Trees are non-linear classifiers; they do not require data to be linearly separable. When you are sure that your data set divides into two separable parts, then use a Logistic Regression. If you're not sure, then go with a Decision Tree. A Decision Tree will take care of both.
+
 ## Unsupervised Models
 
 
