@@ -31,8 +31,10 @@ Markov Chains are exceptionally useful in order to model a discrete-time, discre
 
 Great video going through the basics:
 - https://www.youtube.com/watch?v=i3AkTO9HLXo
+
+And a post with more information:
 - https://towardsdatascience.com/introduction-to-markov-chains-50da3645a50d
 
-## References
+## General References
 https://www.linkedin.com/pulse/how-decide-which-model-use-anil-mahanty/
 
