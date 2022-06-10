@@ -31,6 +31,7 @@ Decision Trees are non-linear classifiers; they do not require data to be linear
 
 
 ## Stochastic models
+
 ### Markov Chains
 <img src="https://user-images.githubusercontent.com/43540613/172156982-0dc7ae61-8155-4c03-97ca-8bea67113f0c.png" width="500"/>
 
