@@ -34,6 +34,12 @@ Linear regression attempts to model the relationship between two variables by fi
 
 A linear regression line has an equation of the form Y = a + bX, where X is the explanatory variable and Y is the dependent variable. The slope of the line is b, and a is the intercept (the value of y when x = 0).
 
+Remember to check assumptions of linear regression first:
+There are four assumptions associated with a linear regression model.
+- Linearity: The relationship between X and the mean of Y is linear.
+- Homoscedasticity: The variance of residual is the same for any value of X.
+- Independence: Observations are independent of each other.
+- Normality: For any fixed value of X, Y is normally distributed.
 
 ## Unsupervised Models
 
