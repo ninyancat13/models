@@ -19,6 +19,12 @@ Ensemble learning methods are made up of a set of classifiers - e.g. decision tr
 
 Reference: https://www.ibm.com/cloud/learn/random-forest
 
+### XGBoost - eXtreme Gradient Boosting
+
+### LightGBM - Light Gradient Boosting
+The one to challenge XGBoost's crown.
+
+
 ### Logistic Regression
 <img src="https://user-images.githubusercontent.com/43540613/172834151-b83706d1-713a-4153-819b-fdbd098dac5e.png" width="500"/>
 
@@ -57,6 +63,15 @@ Great video going through the basics:
 
 And a post with more information:
 - https://towardsdatascience.com/introduction-to-markov-chains-50da3645a50d
+
+## Other
+
+### Bayesian Statistics
+https://towardsdatascience.com/what-is-bayesian-statistics-used-for-37b91c2c257c
+
+## Data comparison
+### ANOVA 
+<img src="https://user-images.githubusercontent.com/43540613/173771587-b15ccd3c-b0c1-4192-988c-d5c5b68f6799.png" width="500"/>
 
 ## General References
 https://www.linkedin.com/pulse/how-decide-which-model-use-anil-mahanty/
