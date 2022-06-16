@@ -1,4 +1,4 @@
-# Which model to use when?
+# Notes: Which model to use when?
 
 <img src="images/screenshot.png" width="500"/>
 Note: something like random forest or decision trees can be used for both continuous and categorical problems
@@ -22,8 +22,28 @@ Reference: https://www.ibm.com/cloud/learn/random-forest
 ### XGBoost - eXtreme Gradient Boosting
 
 ### LightGBM - Light Gradient Boosting
-The one to challenge XGBoost's crown.
 
+
+Light Gradient Boosted Machine, or LightGBM for short, is an open-source library that provides an efficient and effective implementation of the gradient boosting algorithm. LightGBM extends the gradient boosting algorithm by adding a type of automatic feature selection as well as focusing on boosting examples with larger gradients. This can result in a dramatic speedup of training and improved predictive performance.
+
+As such, LightGBM has become a de facto algorithm for machine learning competitions when working with tabular data for regression and classification predictive modeling tasks. As such, it owns a share of the blame for the increased popularity and wider adoption of gradient boosting methods in general, along with Extreme Gradient Boosting (XGBoost).
+
+Reference: https://machinelearningmastery.com/light-gradient-boosted-machine-lightgbm-ensemble/
+
+Light GBM or XGBoost?
+<img src="https://user-images.githubusercontent.com/43540613/174068302-c3561bd1-7055-4dce-95c9-30dd1b368b54.png" width="500"/>
+
+- In XGBoost, trees grow depth-wise while in LightGBM, trees grow leaf-wise which is the fundamental difference between the two frameworks.
+- XGBoost is backed by the volume of its users that results in enriched literature in the form of documentation and resolutions to issues. While LightGBM is yet to reach such a level of documentation.
+- Both the algorithms perform similarly in terms of model performance but LightGBM training happens within a fraction of the time required by XGBoost.
+- Fast training in LightGBM makes it the go-to choice for machine learning experiments.
+- XGBoost requires a lot of resources to train on large amounts of data which makes it an accessible option for most enterprises while LightGBM is lightweight and can be used on modest hardware.
+- LightGBM provides the option for passing feature names that are to be treated as categories and handles this issue with ease by splitting on equality. 
+- H2O’s implementation of XGBoost provides the above feature as well which is not yet provided by XGBoost’s original library.
+- Hyperparameter tuning is extremely important in both algorithms.
+
+https://neptune.ai/blog/xgboost-vs-lightgbm
+https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/
 
 ### Logistic Regression
 <img src="https://user-images.githubusercontent.com/43540613/172834151-b83706d1-713a-4153-819b-fdbd098dac5e.png" width="500"/>
