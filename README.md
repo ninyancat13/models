@@ -31,8 +31,7 @@ As such, LightGBM has become a de facto algorithm for machine learning competiti
 Reference: 
 - https://machinelearningmastery.com/light-gradient-boosted-machine-lightgbm-ensemble/
 
-Light GBM or XGBoost?
-
+### Light GBM or XGBoost?
 <img src="https://user-images.githubusercontent.com/43540613/174068302-c3561bd1-7055-4dce-95c9-30dd1b368b54.png" width="500"/>
 
 - In XGBoost, trees grow depth-wise while in LightGBM, trees grow leaf-wise which is the fundamental difference between the two frameworks.
