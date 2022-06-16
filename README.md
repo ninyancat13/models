@@ -20,9 +20,10 @@ Ensemble learning methods are made up of a set of classifiers - e.g. decision tr
 Reference: https://www.ibm.com/cloud/learn/random-forest
 
 ### XGBoost - eXtreme Gradient Boosting
+<img src="https://user-images.githubusercontent.com/43540613/174069237-f11c7d37-7276-494a-98b2-4812a222c4ae.png" width="500"/>
 
 ### LightGBM - Light Gradient Boosting
-
+<img src="https://user-images.githubusercontent.com/43540613/174068978-0e01ca65-953a-4993-b681-720e7ad54888.png" width="500"/>
 
 Light Gradient Boosted Machine, or LightGBM for short, is an open-source library that provides an efficient and effective implementation of the gradient boosting algorithm. LightGBM extends the gradient boosting algorithm by adding a type of automatic feature selection as well as focusing on boosting examples with larger gradients. This can result in a dramatic speedup of training and improved predictive performance.
 
