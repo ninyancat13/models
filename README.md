@@ -28,9 +28,11 @@ Light Gradient Boosted Machine, or LightGBM for short, is an open-source library
 
 As such, LightGBM has become a de facto algorithm for machine learning competitions when working with tabular data for regression and classification predictive modeling tasks. As such, it owns a share of the blame for the increased popularity and wider adoption of gradient boosting methods in general, along with Extreme Gradient Boosting (XGBoost).
 
-Reference: https://machinelearningmastery.com/light-gradient-boosted-machine-lightgbm-ensemble/
+Reference: 
+- https://machinelearningmastery.com/light-gradient-boosted-machine-lightgbm-ensemble/
 
 Light GBM or XGBoost?
+
 <img src="https://user-images.githubusercontent.com/43540613/174068302-c3561bd1-7055-4dce-95c9-30dd1b368b54.png" width="500"/>
 
 - In XGBoost, trees grow depth-wise while in LightGBM, trees grow leaf-wise which is the fundamental difference between the two frameworks.
@@ -42,8 +44,9 @@ Light GBM or XGBoost?
 - H2O’s implementation of XGBoost provides the above feature as well which is not yet provided by XGBoost’s original library.
 - Hyperparameter tuning is extremely important in both algorithms.
 
-https://neptune.ai/blog/xgboost-vs-lightgbm
-https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/
+References:
+- https://neptune.ai/blog/xgboost-vs-lightgbm
+- https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/
 
 ### Logistic Regression
 <img src="https://user-images.githubusercontent.com/43540613/172834151-b83706d1-713a-4153-819b-fdbd098dac5e.png" width="500"/>
