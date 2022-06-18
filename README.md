@@ -22,6 +22,13 @@ Reference: https://www.ibm.com/cloud/learn/random-forest
 ### XGBoost - eXtreme Gradient Boosting
 <img src="https://user-images.githubusercontent.com/43540613/174069237-f11c7d37-7276-494a-98b2-4812a222c4ae.png" width="500"/>
 
+Boosting is an ensemble technique where new models are added to correct the errors made by existing models. Models are added sequentially until no further improvements can be made. A popular example is the AdaBoost algorithm that weights data points that are hard to predict. Gradient boosting is an approach where new models are created that predict the residuals or errors of prior models and then added together to make the final prediction. It is called gradient boosting because it uses a gradient descent algorithm to minimize the loss when adding new models.
+
+This approach supports both regression and classification predictive modeling problems.
+One of the most important differences between XG Boost and Random forest is that the XGBoost always gives more importance to functional space when reducing the cost of a model while Random Forest tries to give more preferences to hyperparameters to optimize the model.
+
+Reference: https://medium.com/geekculture/xgboost-versus-random-forest-898e42870f30
+
 ### LightGBM - Light Gradient Boosting
 <img src="https://user-images.githubusercontent.com/43540613/174068978-0e01ca65-953a-4993-b681-720e7ad54888.png" width="500"/>
 
@@ -95,6 +102,14 @@ https://towardsdatascience.com/what-is-bayesian-statistics-used-for-37b91c2c257c
 ## Data comparison
 ### ANOVA 
 <img src="https://user-images.githubusercontent.com/43540613/173771587-b15ccd3c-b0c1-4192-988c-d5c5b68f6799.png" width="500"/>
+
+## Ensemble Learning 
+Ensemble learning algorithms combine the predictions of two or more models.
+
+The idea of ensemble learning is closely related to the idea of the “wisdom of crowds“. This is where many different independent decisions, choices or estimates are combined into a final outcome that is often more accurate than any single contribution. They lead to better robustness and better predictions in our data.
+
+We now have standardised models that apply ensemble learning for us. For example XGBoost, random forest, weighted averages.
+https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
 
 ## General References
 https://www.linkedin.com/pulse/how-decide-which-model-use-anil-mahanty/
