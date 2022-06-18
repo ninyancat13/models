@@ -111,6 +111,9 @@ The idea of ensemble learning is closely related to the idea of the “wisdom of
 We now have standardised models that apply ensemble learning for us. For example XGBoost, random forest, weighted averages.
 https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
 
+### Bagging and Boosting
+
+https://www.youtube.com/watch?v=UeYG64Hm7Es
 ## General References
 https://www.linkedin.com/pulse/how-decide-which-model-use-anil-mahanty/
 
