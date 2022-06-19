@@ -78,6 +78,7 @@ There are four assumptions associated with a linear regression model.
 - Normality: For any fixed value of X, Y is normally distributed.
 
 ## Unsupervised Models
+<img src="https://user-images.githubusercontent.com/43540613/174483309-b4e010d3-deeb-4284-9881-e291f8944913.png" width="500"/>
 
 
 ## Stochastic models
