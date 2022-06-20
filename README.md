@@ -81,6 +81,14 @@ There are four assumptions associated with a linear regression model.
 <img src="https://user-images.githubusercontent.com/43540613/174483309-b4e010d3-deeb-4284-9881-e291f8944913.png" width="500"/>
 
 ### Clustering
+There are many different types of clustering algorithms
+
+### K-means clustering algorithm
+K-means clustering is the most commonly used clustering algorithm. It's a centroid-based algorithm and the simplest unsupervised learning algorithm. This algorithm tries to minimize the variance of data points within a cluster. It's also how most people are introduced to unsupervised machine learning.
+
+K-means is best used on smaller data sets because it iterates over all of the data points. That means it'll take more time to classify data points if there are a large amount of them in the data set. Since this is how k-means clusters data points, it doesn't scale well.
+
+Reference: https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/
 
 ## Stochastic models
 
