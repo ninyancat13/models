@@ -120,6 +120,7 @@ And a post with more information:
 ## Other
 
 ### Bayesian Statistics
+ The solution is a statistical technique called Bayesian inference. This technique begins with our stating prior beliefs about the system being modelled, allowing us to encode expert opinion and domain-specific knowledge into our system. These beliefs are combined with data to constrain the details of the model. Then, when used to make a prediction, the model doesn’t give one answer, but rather a distribution of likely answers, allowing us to assess risks.
 https://towardsdatascience.com/what-is-bayesian-statistics-used-for-37b91c2c257c
 
 ## Data comparison
