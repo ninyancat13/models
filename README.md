@@ -136,6 +136,12 @@ We now have standardised models that apply ensemble learning for us. For example
 https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
 
 ### Bagging and Boosting
+Bagging helps to decrease the model’s variance.
+Boosting helps to decrease the model’s bias.
+
+Bagging is a way to decrease the variance in the prediction by generating additional data for training from dataset using combinations with repetitions to produce multi-sets of the original data. Boosting is an iterative technique which adjusts the weight of an observation based on the last classification
+
+
 
 https://www.youtube.com/watch?v=UeYG64Hm7Es
 ## General References
