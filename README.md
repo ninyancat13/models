@@ -146,13 +146,13 @@ https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-l
 Bagging helps to decrease the model’s variance.
 Boosting helps to decrease the model’s bias.
 
-Bagging is a way to decrease the variance in the prediction by generating additional data for training from dataset using combinations with repetitions to produce multi-sets of the original data. 
+Bagging is a way to decrease the variance in the prediction by generating additional data for training from dataset using combinations with repetitions to produce multi-sets of the original data. The idea behind bagging is combining the results of multiple models (for instance, all decision trees) to get a generalized result. Now, bootstrapping comes into picture.
 
-Boosting is an iterative technique which adjusts the weight of an observation based on the last classification
-
-
+Boosting is an iterative technique which adjusts the weight of an observation based on the last classification. Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model. The succeeding models are dependent on the previous model.
 
 https://www.youtube.com/watch?v=UeYG64Hm7Es
+https://www.kaggle.com/code/prashant111/bagging-vs-boosting/notebook
+
 ## General References
 https://www.linkedin.com/pulse/how-decide-which-model-use-anil-mahanty/
 
