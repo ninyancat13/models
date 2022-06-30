@@ -146,6 +146,9 @@ https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-l
 Bagging helps to decrease the model’s variance.
 Boosting helps to decrease the model’s bias.
 
+#### Bagging
+<img src="https://user-images.githubusercontent.com/43540613/176615637-59d06af8-36a1-4fe8-8c52-1bd8008232a8.png" width="500"/>
+
 Bagging is a way to decrease the variance in the prediction by generating additional data for training from dataset using combinations with repetitions to produce multi-sets of the original data. The idea behind bagging is combining the results of multiple models (for instance, all decision trees) to get a generalized result. Now, bootstrapping comes into picture. Bagging (or Bootstrap Aggregating) technique uses these subsets (bags) to get a fair idea of the distribution (complete set). The size of subsets created for bagging may be less than the original set.
 
 Bagging works as follows:
@@ -153,6 +156,10 @@ Bagging works as follows:
 2. A base model (weak model) is created on each of these subsets.
 3. The models run in parallel and are independent of each other.
 4. The final predictions are determined by combining the predictions from all the models.
+
+
+#### Boosting
+<img src="https://user-images.githubusercontent.com/43540613/176615019-3e83fc48-db57-4bf5-b452-3d6d3f5fb5e7.png" width="500"/>
 
 Boosting is an iterative technique which adjusts the weight of an observation based on the last classification. Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model. The succeeding models are dependent on the previous model. In this technique, learners are learned sequentially with early learners fitting simple models to the data and then analyzing data for errors. In other words, we fit consecutive trees (random sample) and at every step, the goal is to solve for net error from the prior tree. When an input is misclassified by a hypothesis, its weight is increased so that next hypothesis is more likely to classify it correctly. By combining the whole set at the end converts weak learners into better performing model. This is because the individual models would not perform well on the entire dataset, but they work well for some part of the dataset. Thus, each model actually boosts the performance of the ensemble.
 
@@ -167,9 +174,10 @@ Boosting works as follows:
 8. Similarly, multiple models are created, each correcting the errors of the previous model.
 9. The final model (strong learner) is the weighted mean of all the models (weak learners).
 
-
+https://gaussian37.github.io/ml-concept-bagging/
 https://www.youtube.com/watch?v=UeYG64Hm7Es
 https://www.kaggle.com/code/prashant111/bagging-vs-boosting/notebook
+https://medium.com/swlh/boosting-and-bagging-explained-with-examples-5353a36eb78d
 
 ## General References
 https://www.linkedin.com/pulse/how-decide-which-model-use-anil-mahanty/
