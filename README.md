@@ -146,9 +146,27 @@ https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-l
 Bagging helps to decrease the model’s variance.
 Boosting helps to decrease the model’s bias.
 
-Bagging is a way to decrease the variance in the prediction by generating additional data for training from dataset using combinations with repetitions to produce multi-sets of the original data. The idea behind bagging is combining the results of multiple models (for instance, all decision trees) to get a generalized result. Now, bootstrapping comes into picture.
+Bagging is a way to decrease the variance in the prediction by generating additional data for training from dataset using combinations with repetitions to produce multi-sets of the original data. The idea behind bagging is combining the results of multiple models (for instance, all decision trees) to get a generalized result. Now, bootstrapping comes into picture. Bagging (or Bootstrap Aggregating) technique uses these subsets (bags) to get a fair idea of the distribution (complete set). The size of subsets created for bagging may be less than the original set.
 
-Boosting is an iterative technique which adjusts the weight of an observation based on the last classification. Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model. The succeeding models are dependent on the previous model.
+Bagging works as follows:
+1. Multiple subsets are created from the original dataset, selecting observations with replacement.
+2. A base model (weak model) is created on each of these subsets.
+3. The models run in parallel and are independent of each other.
+4. The final predictions are determined by combining the predictions from all the models.
+
+Boosting is an iterative technique which adjusts the weight of an observation based on the last classification. Boosting is a sequential process, where each subsequent model attempts to correct the errors of the previous model. The succeeding models are dependent on the previous model. In this technique, learners are learned sequentially with early learners fitting simple models to the data and then analyzing data for errors. In other words, we fit consecutive trees (random sample) and at every step, the goal is to solve for net error from the prior tree. When an input is misclassified by a hypothesis, its weight is increased so that next hypothesis is more likely to classify it correctly. By combining the whole set at the end converts weak learners into better performing model. This is because the individual models would not perform well on the entire dataset, but they work well for some part of the dataset. Thus, each model actually boosts the performance of the ensemble.
+
+Boosting works as follows:
+1. A subset is created from the original dataset.
+2. Initially, all data points are given equal weights.
+3. A base model is created on this subset.
+4. This model is used to make predictions on the whole dataset.
+5. Errors are calculated using the actual values and predicted values.
+6. The observations which are incorrectly predicted, are given higher weights. (Here, the three misclassified blue-plus points will be given higher weights)
+7. Another model is created and predictions are made on the dataset. (This model tries to correct the errors from the previous model)
+8. Similarly, multiple models are created, each correcting the errors of the previous model.
+9. The final model (strong learner) is the weighted mean of all the models (weak learners).
+
 
 https://www.youtube.com/watch?v=UeYG64Hm7Es
 https://www.kaggle.com/code/prashant111/bagging-vs-boosting/notebook
