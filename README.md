@@ -179,6 +179,16 @@ https://www.youtube.com/watch?v=UeYG64Hm7Es
 https://www.kaggle.com/code/prashant111/bagging-vs-boosting/notebook
 https://medium.com/swlh/boosting-and-bagging-explained-with-examples-5353a36eb78d
 
+
+#### N-learners (sampling for Boosting/Bagging)
+Bagging and Boosting get N learners by generating additional data in the training stage.
+N new training data sets are produced by random sampling with replacement from the original set.
+By sampling with replacement some observations may be repeated in each new training data set.
+In the case of Bagging, any element has the same probability to appear in a new data set.
+However, for Boosting the observations are weighted and therefore some of them will take part in the new sets more often.
+These multiple sets are used to train the same learner algorithm and therefore different classifiers are produced.
+
+
 ## General References
 https://www.linkedin.com/pulse/how-decide-which-model-use-anil-mahanty/
 
