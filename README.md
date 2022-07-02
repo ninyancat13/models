@@ -179,6 +179,26 @@ https://www.youtube.com/watch?v=UeYG64Hm7Es
 https://www.kaggle.com/code/prashant111/bagging-vs-boosting/notebook
 https://medium.com/swlh/boosting-and-bagging-explained-with-examples-5353a36eb78d
 
+#### Bagging vs Boosting
+Similarities between Bagging and Boosting
+
+##### Similarities between Bagging and Boosting are as follows:-
+Both are ensemble methods to get N learners from 1 learner.
+Both generate several training data sets by random sampling.
+Both make the final decision by averaging the N learners (or taking the majority of them i.e Majority Voting).
+Both are good at reducing variance and provide higher stability.
+
+##### Differences between Bagging and Boosting 
+
+Differences between Bagging and Boosting are as follows:-
+Bagging is the simplest way of combining predictions that belong to the same type while Boosting is a way of combining predictions that belong to the different types.
+Bagging aims to decrease variance, not bias while Boosting aims to decrease bias, not variance.
+In Baggiing each model receives equal weight whereas in Boosting models are weighted according to their performance.
+In Bagging each model is built independently whereas in Boosting new models are influenced by performance of previously built models.
+In Bagging different training data subsets are randomly drawn with replacement from the entire training dataset. In Boosting every new subsets contains the elements that were misclassified by previous models.
+Bagging tries to solve over-fitting problem while Boosting tries to reduce bias.
+If the classifier is unstable (high variance), then we should apply Bagging. If the classifier is stable and simple (high bias) then we should apply Boosting.
+Bagging is extended to Random forest model while Boosting is extended to Gradient boosting.
 
 #### N-learners (sampling for Boosting/Bagging)
 Bagging and Boosting get N learners by generating additional data in the training stage.
