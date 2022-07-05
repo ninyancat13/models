@@ -125,6 +125,7 @@ https://towardsdatascience.com/what-is-bayesian-statistics-used-for-37b91c2c257c
 
 ## Data comparison
 ### ANOVA 
+<img src="https://user-images.githubusercontent.com/43540613/177343003-906186c8-6668-48d1-a2ab-d50749cea7f6.png" width="500"/>
 <img src="https://user-images.githubusercontent.com/43540613/173771587-b15ccd3c-b0c1-4192-988c-d5c5b68f6799.png" width="500"/>
 Analysis of variance (ANOVA) is an analysis tool used in statistics that splits an observed aggregate variability found inside a data set into two parts: systematic factors and random factors. The systematic factors have a statistical influence on the given data set, while the random factors do not. Analysts use the ANOVA test to determine the influence that independent variables have on the dependent variable in a regression study.
 
