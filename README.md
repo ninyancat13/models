@@ -135,6 +135,10 @@ A one-way ANOVA evaluates the impact of a sole factor on a sole response variabl
 
 A two-way ANOVA is an extension of the one-way ANOVA. With a one-way, you have one independent variable affecting a dependent variable. With a two-way ANOVA, there are two independents. For example, a two-way ANOVA allows a company to compare worker productivity based on two independent variables, such as salary and skill set. It is utilized to observe the interaction between the two factors and tests the effect of two factors at the same time.
 
+A three-way ANOVA
+
+
+
 Reference: https://www.investopedia.com/terms/a/anova.asp
 
 ## Ensemble Learning 
