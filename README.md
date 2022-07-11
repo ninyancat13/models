@@ -136,10 +136,35 @@ A one-way ANOVA evaluates the impact of a sole factor on a sole response variabl
 A two-way ANOVA is an extension of the one-way ANOVA. With a one-way, you have one independent variable affecting a dependent variable. With a two-way ANOVA, there are two independents. For example, a two-way ANOVA allows a company to compare worker productivity based on two independent variables, such as salary and skill set. It is utilized to observe the interaction between the two factors and tests the effect of two factors at the same time.
 
 A three-way ANOVA
+The three-way ANOVA is used by statisticians to determine whether there is a three-way relationship among variables on an outcome. It determines what effect, if any, three factors had on an outcome. Three-way ANOVAs are useful for gaining an understanding of complex interactions where more than one variable may influence the result 
 
+A four-way ANOVA
+A four way ANOVA is a factorial ANOVA (unless you are thinking of some other meaning for four-way).
+Each factor represents one variable (a set of categories or treatment types or treatment dosages).
+Here is an example:
+Factor 1: sex (female, male) 2 groups or 2 levels
+Factor 2: drug dosage (low, medium, high) 3 groups or 3 levels
+Factor 3: age (young, middle aged, old) 3 groups
+Factor 4: psychotherapy (yes, no) 2 groups
 
+In a factorial design, you examine average scores on an outcome variable (such as anxiety) for all possible combinations of groups or levels. In this example you would have 2 x 3 x 3 x 2 = 36 different combinations; one combination of conditions would be male, low drug dose, middle aged, no psychotherapy. If you want to have at least 10 people for each combination of conditions,, you would need 2 x 3 x 3 x 2 x 10 = 360 people total.
 
-Reference: https://www.investopedia.com/terms/a/anova.asp
+Usually the main point of a factorial design is to evaluate interactions (for example, does increasing drug dose have a different effect on the outcome for males versus females?). It is very common to have 2 way factorials, and fairly common to have 3 way factorial design. It is rare to have 4 and 5 way factorials - you begin to need a very large number of people to fill up all the groups, and the interactions among multiple variables start to become very complicated.
+https://www.quora.com/What-is-a-4-way-ANOVA
+
+MANOVA
+Multivariate ANOVA (MANOVA) extends the capabilities of analysis of variance (ANOVA) by assessing multiple dependent variables simultaneously. ANOVA statistically tests the differences between three or more group means. For example, if you have three different teaching methods and you want to evaluate the average scores for these groups, you can use ANOVA. However, ANOVA does have a drawback. It can assess only one dependent variable at a time. This limitation can be an enormous problem in certain circumstances because it can prevent you from detecting effects that actually exist. MANOVA provides a solution for some studies. This statistical procedure tests multiple dependent variables at the same time. By doing so, MANOVA can offer several advantages over ANOVA.
+
+Note therefore that 2-way, 3-way or even a 4-way ANOVA is NOT a MANOVA. The 2/3/4/5-way ANOVAs have multiple independent variables impacting one dependent variable. Whilst in a MANOVA, we have a independent variable impacting multiple dependent variables!
+
+Now the Q is, do 2-way or 3-way MANOVAs exist?
+YES!
+The two-way multivariate analysis of variance (two-way MANOVA) is often considered as an extension of the two-way ANOVA for situations where there are two or more dependent variables. The primary purpose of the two-way MANOVA is to understand if there is an interaction between the two independent variables on the two or more combined dependent variables.
+https://www.amstatisticalconsulting.com/banking-fees-2-11/
+
+Reference: 
+https://statisticsbyjim.com/anova/multivariate-anova-manova-benefits-use/
+https://www.investopedia.com/terms/a/anova.asp
 
 ## Ensemble Learning 
 Ensemble learning algorithms combine the predictions of two or more models.
