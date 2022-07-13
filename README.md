@@ -124,6 +124,12 @@ And a post with more information:
 https://towardsdatascience.com/what-is-bayesian-statistics-used-for-37b91c2c257c
 
 ## Data comparison
+
+### T-test
+The Student's t test is used to compare the means between two groups, whereas ANOVA is used to compare the means among three or more groups.
+
+Note: The One-way ANOVA is extension of independent samples t test (In independent samples t test used to compare the means between two independent groups, whereas in one-way ANOVA, means are compared among three or more independent groups).
+
 ### ANOVA 
 <img src="https://user-images.githubusercontent.com/43540613/177343003-906186c8-6668-48d1-a2ab-d50749cea7f6.png" width="500"/>
 <img src="https://user-images.githubusercontent.com/43540613/173771587-b15ccd3c-b0c1-4192-988c-d5c5b68f6799.png" width="500"/>
@@ -158,7 +164,7 @@ Multivariate ANOVA (MANOVA) extends the capabilities of analysis of variance (AN
 Note therefore that 2-way, 3-way or even a 4-way ANOVA is NOT a MANOVA. The 2/3/4/5-way ANOVAs have multiple independent variables impacting one dependent variable. Whilst in a MANOVA, we have a independent variable impacting multiple dependent variables!
 
 Now the Q is, do 2-way or 3-way MANOVAs exist?
-YES!
+Yes!
 The two-way multivariate analysis of variance (two-way MANOVA) is often considered as an extension of the two-way ANOVA for situations where there are two or more dependent variables. The primary purpose of the two-way MANOVA is to understand if there is an interaction between the two independent variables on the two or more combined dependent variables.
 https://www.amstatisticalconsulting.com/banking-fees-2-11/
 
