@@ -3,7 +3,6 @@
 <img src="images/screenshot.png" width="500"/>
 Note: something like random forest or decision trees can be used for both continuous and categorical problems
   
-  
 ## Supervised Models
 ### Decision trees
 <img src="https://user-images.githubusercontent.com/43540613/172396826-af4abd77-261e-45f7-9855-9db13e53db48.png" width="350"/>
@@ -190,9 +189,17 @@ https://www.amstatisticalconsulting.com/banking-fees-2-11/
 Img reference: 
 https://www.researchgate.net/figure/Box-plot-of-the-MANOVA-comparing-limb-variables-against-locomotor-modes-Boxes-represent_fig1_298215643
 
-General reference: 
+Info reference: 
 https://statisticsbyjim.com/anova/multivariate-anova-manova-benefits-use/
 https://www.investopedia.com/terms/a/anova.asp
+
+#### Chi-Square test
+A chi-square test is a statistical test used to compare observed results with expected results. The purpose of this test is to determine if a difference between observed data and expected data is due to chance, or if it is due to a relationship between the variables you are studying.
+
+Put in another way, the Chi-square test of independence is a statistical hypothesis test used to determine whether two categorical or nominal variables are likely to be related or not.
+
+https://philschatz.com/statistics-book/contents/m47082.html
+https://www.jmp.com/en_be/statistics-knowledge-portal/chi-square-test.html
 
 ## Ensemble Learning 
 Ensemble learning algorithms combine the predictions of two or more models.
