@@ -181,6 +181,8 @@ Multivariate ANOVA (MANOVA) extends the capabilities of analysis of variance (AN
 
 Note therefore that 2-way, 3-way or even a 4-way ANOVA is NOT a MANOVA. The 2/3/4/5-way ANOVAs have multiple independent variables impacting one dependent variable. Whilst in a MANOVA, we have a independent variable impacting multiple dependent variables!
 
+Manova is a bit confusing so here is more information regarding how one independent group could impact multiple dependent variables: https://statisticsbyjim.com/anova/multivariate-anova-manova-benefits-use/
+
 Now the Q is, do 2-way or 3-way MANOVAs exist?
 Yes!
 The two-way multivariate analysis of variance (two-way MANOVA) is often considered as an extension of the two-way ANOVA for situations where there are two or more dependent variables. The primary purpose of the two-way MANOVA is to understand if there is an interaction between the two independent variables on the two or more combined dependent variables.
@@ -194,10 +196,15 @@ https://statisticsbyjim.com/anova/multivariate-anova-manova-benefits-use/
 https://www.investopedia.com/terms/a/anova.asp
 
 #### Chi-Square test
+<img src="https://user-images.githubusercontent.com/43540613/179244336-d9fd1265-7268-4599-8d91-e91d2d4d5bf9.png" width="500"/>
+
 A chi-square test is a statistical test used to compare observed results with expected results. The purpose of this test is to determine if a difference between observed data and expected data is due to chance, or if it is due to a relationship between the variables you are studying.
 
-Put in another way, the Chi-square test of independence is a statistical hypothesis test used to determine whether two categorical or nominal variables are likely to be related or not.
+A chi-square goodness of fit test determines if sample data matches a population. For more details on this type, see: Goodness of Fit Test.
 
+A chi-square test for independence compares two variables in a contingency table to see if they are related. In a more general sense, it tests to see whether distributions of categorical variables differ from each another.
+
+https://www.southampton.ac.uk/passs/full_time_education/bivariate_analysis/chi_square.page
 https://philschatz.com/statistics-book/contents/m47082.html
 https://www.jmp.com/en_be/statistics-knowledge-portal/chi-square-test.html
 
