@@ -1,4 +1,4 @@
-# Rough Notes: Which model to use when?
+# Basic Notes on Statistical Methods and Models
 
 <img src="images/screenshot.png" width="500"/>
 Note: something like random forest or decision trees can be used for both continuous and categorical problems
