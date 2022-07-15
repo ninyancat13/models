@@ -139,24 +139,24 @@ Analysis of variance (ANOVA) is an analysis tool used in statistics that splits 
 
 There are two main types of ANOVA: one-way (or unidirectional) and two-way. There also variations of ANOVA. For example, MANOVA (multivariate ANOVA) differs from ANOVA as the former tests for multiple dependent variables simultaneously while the latter assesses only one dependent variable at a time. One-way or two-way refers to the number of independent variables in your analysis of variance test.
 
-#### One-way ANOVA
+#### One-way ANOVA (one independent group, one dependent)
 <img src="https://user-images.githubusercontent.com/43540613/178746839-0fbfa623-c6f5-4359-930a-99f96d4667ca.png" width="500"/>
 
 A one-way ANOVA evaluates the impact of a sole factor on a sole response variable. It determines whether all the samples are the same. The one-way ANOVA is used to determine whether there are any statistically significant differences between the means of three or more independent (unrelated) groups.
 
-#### Two-way ANOVA
+#### Two-way ANOVA (two independent groups, one dependent)
 <img src="https://user-images.githubusercontent.com/43540613/178746703-f2ee355f-c8a5-41f0-b4ef-ac10588c9702.png" width="500"/>
 
 A two-way ANOVA is an extension of the one-way ANOVA. With a one-way, you have one independent variable affecting a dependent variable. With a two-way ANOVA, there are two independents. For example, a two-way ANOVA allows a company to compare worker productivity based on two independent variables, such as salary and skill set. It is utilized to observe the interaction between the two factors and tests the effect of two factors at the same time.
 
-#### Three-way ANOVA
+#### Three-way ANOVA (three independent groups, one dependent)
 <img src="https://user-images.githubusercontent.com/43540613/178746387-299323c5-6379-4f49-a08c-1279335dc5dd.png" width="500"/>
 
 The three-way ANOVA is used by statisticians to determine whether there is a three-way relationship among variables on an outcome. It determines what effect, if any, three factors had on an outcome. Three-way ANOVAs are useful for gaining an understanding of complex interactions where more than one variable may influence the result 
 
 Reference for all 3 images above: https://www.datanovia.com/en/lessons/repeated-measures-anova-in-r/
 
-#### Four-way ANOVA
+#### Four-way ANOVA (four independent groups, one dependent)
 <img src="https://user-images.githubusercontent.com/43540613/178746976-b1a3fa1c-8f02-45b8-8f4b-18d108265365.png" width="500"/>
 
 A four way ANOVA is a factorial ANOVA (unless you are thinking of some other meaning for four-way).
@@ -174,7 +174,7 @@ https://www.quora.com/What-is-a-4-way-ANOVA
 
 Img reference: https://www.researchgate.net/figure/Four-way-ANOVA-analysis-of-differences-in-resistance-to-oxidative-stress-depending-on-sex_fig4_361190166
 
-#### MANOVA
+#### MANOVA (multiple dependent variables, one independent group)
 <img src="https://user-images.githubusercontent.com/43540613/178747211-58735788-1661-4d8c-81a8-44e8fce7ad7c.png" width="500"/>
 
 Multivariate ANOVA (MANOVA) extends the capabilities of analysis of variance (ANOVA) by assessing multiple dependent variables simultaneously. ANOVA statistically tests the differences between three or more group means. For example, if you have three different teaching methods and you want to evaluate the average scores for these groups, you can use ANOVA. However, ANOVA does have a drawback. It can assess only one dependent variable at a time. This limitation can be an enormous problem in certain circumstances because it can prevent you from detecting effects that actually exist. MANOVA provides a solution for some studies. This statistical procedure tests multiple dependent variables at the same time. By doing so, MANOVA can offer several advantages over ANOVA.
