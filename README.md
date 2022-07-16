@@ -232,7 +232,7 @@ https://www.statisticshowto.com/homoscedasticity/
 
 #### Normality
 <img src="https://user-images.githubusercontent.com/43540613/179358817-8a35f5cb-5877-455f-9628-08dadd931e34.png" width="500"/>
-<img src="https://user-images.githubusercontent.com/43540613/179358830-19a2aacd-a4fd-4c42-a5df-6496ab95c34b.png" width="500"/>
+<img src="https://user-images.githubusercontent.com/43540613/179359270-38e4e60b-08da-483d-a312-4149a790084c.png" width="500"/>
 
 Data have a normal distribution (or at least is symmetric).
 The normal probability qq plot above is a graphical technique to identify substantive departures from normality. This includes identifying outliers, skewness, kurtosis, a need for transformations, and mixtures.
