@@ -213,6 +213,8 @@ https://www.jmp.com/en_be/statistics-knowledge-portal/chi-square-test.html
 
 ## Common Statistical Tests
 #### Goodness of Fit
+<img src="https://user-images.githubusercontent.com/43540613/179358564-98978409-16c9-40cb-b5c3-34b082ed376b.png" width="500"/>
+
 The goodness of fit of a statistical model describes how well it fits a set of observations. Measures of goodness of fit typically summarize the discrepancy between observed values and the values expected under the model in question. Such measures can be used in statistical hypothesis testing, e.g. to test for normality of residuals, to test whether two samples are drawn from identical distributions (see Kolmogorov–Smirnov test), or whether outcome frequencies follow a specified distribution (see Pearson's chi-square test). In the analysis of variance, one of the components into which the variance is partitioned may be a lack-of-fit sum of squares.
 
 #### Homogeneity of Variance (aka Homoscedasity)
