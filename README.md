@@ -231,7 +231,11 @@ Simply put, homoscedasticity means “having the same scatter.” For it to exis
 https://www.statisticshowto.com/homoscedasticity/
 
 #### Normality
+<img src="https://user-images.githubusercontent.com/43540613/179358817-8a35f5cb-5877-455f-9628-08dadd931e34.png" width="500"/>
+<img src="https://user-images.githubusercontent.com/43540613/179358830-19a2aacd-a4fd-4c42-a5df-6496ab95c34b.png" width="500"/>
+
 Data have a normal distribution (or at least is symmetric).
+The normal probability qq plot above is a graphical technique to identify substantive departures from normality. This includes identifying outliers, skewness, kurtosis, a need for transformations, and mixtures.
 
 #### Linearity
 Data have a linear relationship
