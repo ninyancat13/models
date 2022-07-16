@@ -211,7 +211,7 @@ https://www.jmp.com/en_be/statistics-knowledge-portal/chi-square-test.html
 
 
 
-## Common Statistical Tests
+## Common Statistical Assumptions
 #### Goodness of Fit
 <img src="https://user-images.githubusercontent.com/43540613/179358564-98978409-16c9-40cb-b5c3-34b082ed376b.png" width="500"/>
 
@@ -265,7 +265,6 @@ Bagging works as follows:
 2. A base model (weak model) is created on each of these subsets.
 3. The models run in parallel and are independent of each other.
 4. The final predictions are determined by combining the predictions from all the models.
-
 
 #### Boosting
 <img src="https://user-images.githubusercontent.com/43540613/176615019-3e83fc48-db57-4bf5-b452-3d6d3f5fb5e7.png" width="500"/>
