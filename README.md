@@ -241,7 +241,19 @@ The normal probability qq plot above is a graphical technique to identify substa
 Data have a linear relationship
 
 #### Independence
-Data are independent
+Data are independent (aka the observations are independent)
+
+#### No Multicollinearity
+None of the predictor variables are highly correlated with each other.
+
+Different Statistical models require different assumptions:
+Multiple Linear regression: 
+1. Linear relationship: There exists a linear relationship between each predictor variable and the response variable.
+2. No Multicollinearity: None of the predictor variables are highly correlated with each other.
+3. Independence: The observations are independent.
+4. Homoscedasticity: The residuals have constant variance at every point in the linear model.
+5. Multivariate Normality: The residuals of the model are normally distributed.
+https://www.statology.org/multiple-linear-regression-assumptions/
 
 ## Ensemble Learning 
 Ensemble learning algorithms combine the predictions of two or more models.
