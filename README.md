@@ -198,12 +198,13 @@ https://www.investopedia.com/terms/a/anova.asp
 #### Chi-Square test
 <img src="https://user-images.githubusercontent.com/43540613/179244336-d9fd1265-7268-4599-8d91-e91d2d4d5bf9.png" width="500"/>
 
-A chi-square test is a statistical test used to compare observed results with expected results. The purpose of this test is to determine if a difference between observed data and expected data is due to chance, or if it is due to a relationship between the variables you are studying.
+Pearson's chi-squared test is used to assess three types of comparison: goodness of fit, homogeneity, and independence.
+- A test of goodness of fit establishes whether an observed frequency distribution differs from a theoretical distribution.
+- A test of homogeneity compares the distribution of counts for two or more groups using the same categorical variable (e.g. choice of activity—college, military, employment, travel—of graduates of a high school reported a year after graduation, sorted by graduation year, to see if number of graduates choosing a given activity has changed from class to class, or from decade to decade).[2]
+- A test of independence assesses whether observations consisting of measures on two variables, expressed in a contingency table, are independent of each other (e.g. polling responses from people of different nationalities to see if one's nationality is related to the response).
 
-A chi-square goodness of fit test determines if sample data matches a population. For more details on this type, see: Goodness of Fit Test.
-
-A chi-square test for independence compares two variables in a contingency table to see if they are related. In a more general sense, it tests to see whether distributions of categorical variables differ from each another.
-
+References:
+https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test
 https://www.southampton.ac.uk/passs/full_time_education/bivariate_analysis/chi_square.page
 https://philschatz.com/statistics-book/contents/m47082.html
 https://www.jmp.com/en_be/statistics-knowledge-portal/chi-square-test.html
