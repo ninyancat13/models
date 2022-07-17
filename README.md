@@ -195,10 +195,6 @@ Info reference:
 https://statisticsbyjim.com/anova/multivariate-anova-manova-benefits-use/
 https://www.investopedia.com/terms/a/anova.asp
 
-## Non-parametric tests
-![image](https://user-images.githubusercontent.com/43540613/179401820-10a23dc5-3eec-4365-bd82-aa236231bd31.png)
-
-
 #### Chi-Square test
 <img src="https://user-images.githubusercontent.com/43540613/179244336-d9fd1265-7268-4599-8d91-e91d2d4d5bf9.png" width="500"/>
 
@@ -231,8 +227,12 @@ https://www.harshaash.com/R/chi-sq-goodness-of-fit/
 Data from multiple groups have the same variance. Homogeneity of variance is an assumption underlying both t tests and F tests (analyses of variance, ANOVAs) in which the population variances (i.e., the distribution, or “spread,” of scores around the mean) of two or more samples are considered equal.
 
 Simply put, homoscedasticity means “having the same scatter.” For it to exist in a set of data, the points must be about the same distance from the line, as shown in the picture above. 
-
 https://www.statisticshowto.com/homoscedasticity/
+
+##### How to test for homogeneity of variance?
+We can use F-test to compare the variances of two samples. 
+Bartlett’s Test or Levene’s Test to compare the variances of multiple samples.
+http://www.sthda.com/english/wiki/statistical-tests-and-assumptions
 
 #### Normality
 <img src="https://user-images.githubusercontent.com/43540613/179358817-8a35f5cb-5877-455f-9628-08dadd931e34.png" width="500"/>
@@ -240,6 +240,12 @@ https://www.statisticshowto.com/homoscedasticity/
 
 Data have a normal distribution (or at least is symmetric).
 The normal probability qq plot above is a graphical technique to identify substantive departures from normality. This includes identifying outliers, skewness, kurtosis, a need for transformations, and mixtures.
+
+##### How to test for normality?
+With large enough sample sizes (n > 30) the violation of the normality assumption should not cause major problems (central limit theorem). This implies that we can ignore the distribution of the data and use parametric tests.
+
+However, to be consistent, we can use Shapiro-Wilk’s significance test comparing the sample distribution to a normal one in order to ascertain whether data show or not a serious deviation from normality.
+http://www.sthda.com/english/wiki/statistical-tests-and-assumptions
 
 #### Linearity
 Data have a linear relationship
