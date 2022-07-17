@@ -195,6 +195,10 @@ Info reference:
 https://statisticsbyjim.com/anova/multivariate-anova-manova-benefits-use/
 https://www.investopedia.com/terms/a/anova.asp
 
+## Non-parametric tests
+![image](https://user-images.githubusercontent.com/43540613/179401820-10a23dc5-3eec-4365-bd82-aa236231bd31.png)
+
+
 #### Chi-Square test
 <img src="https://user-images.githubusercontent.com/43540613/179244336-d9fd1265-7268-4599-8d91-e91d2d4d5bf9.png" width="500"/>
 
