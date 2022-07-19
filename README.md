@@ -212,8 +212,23 @@ https://www.jmp.com/en_be/statistics-knowledge-portal/chi-square-test.html
 
 
 ## Common Statistical Assumptions
-<img src="https://user-images.githubusercontent.com/43540613/179759006-b59bb196-c09d-4606-9d91-7ce5543ac717.png" width="500"/>
-* Picture above shows Model Diagnostic Checking in R
+
+#### Model Diagnostic Checking in R
+<img src="https://user-images.githubusercontent.com/43540613/179760431-1120acaf-aaee-4d55-a3be-75b4aa64ded9.png" width="500"/>
+
+The plot of residuals versus predicted values is useful for checking the assumption of linearity and homoscedasticity. If the model does not meet the linear model assumption, we would expect to see residuals that are very large (big positive value or big negative value). To assess the assumption of linearity we want to ensure that the residuals are not too far away from 0 (standardized values less than -2 or greater than 2 are deemed problematic). To assess if the homoscedasticity assumption is met we look to make sure that there is no pattern in the residuals and that they are equally spread around the y = 0 line.
+
+The tests and intervals estimated in summary(lm3) are based on the assumption of normality. The normality assumption is evaluated based on the residuals and can be evaluated using a QQ-plot (plot 2) by comparing the residuals to "ideal" normal observations. Observations lie well along the 45-degree line in the QQ-plot, so we may assume that normality holds here.
+
+The third plot is a scale-location plot (square rooted standardized residual vs. predicted value). This is useful for checking the assumption of homoscedasticity. In this particular plot we are checking to see if there is a pattern in the residuals.
+
+The assumption of a random sample and independent observations cannot be tested with diagnostic plots. It is an assumption that you can test by examining the study design.
+
+The fourth plot is of "Cook's distance", which is a measure of the influence of each observation on the regression coefficients. The Cook's distance statistic is a measure, for each observation in turn, of the extent of change in model estimates when that particular observation is omitted. Any observation for which the Cook's distance is close to 1 or more, or that is substantially larger than other Cook's distances (highly influential data points), requires investigation.
+
+Outliers may or may not be influential points. Influential outliers are of the greatest concern. They should never be disregarded. Careful scrutiny of the original data may reveal an error in data entry that can be corrected. If they remain excluded from the final fitted model, they must be noted in the final report or paper.
+
+https://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/R/R5_Correlation-Regression/R5_Correlation-Regression7.html
 
 #### Goodness of Fit
 <img src="https://user-images.githubusercontent.com/43540613/179358564-98978409-16c9-40cb-b5c3-34b082ed376b.png" width="500"/>
