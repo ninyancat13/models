@@ -212,6 +212,9 @@ https://www.jmp.com/en_be/statistics-knowledge-portal/chi-square-test.html
 
 
 ## Common Statistical Assumptions
+<img src="https://user-images.githubusercontent.com/43540613/179759006-b59bb196-c09d-4606-9d91-7ce5543ac717.png" width="500"/>
+* Picture above shows Model Diagnostic Checking in R
+
 #### Goodness of Fit
 <img src="https://user-images.githubusercontent.com/43540613/179358564-98978409-16c9-40cb-b5c3-34b082ed376b.png" width="500"/>
 
