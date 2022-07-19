@@ -213,7 +213,7 @@ https://www.jmp.com/en_be/statistics-knowledge-portal/chi-square-test.html
 
 ## Common Statistical Assumptions
 
-#### Model Diagnostic Checking in R
+#### Regression Model Diagnostic Checking in R
 <img src="https://user-images.githubusercontent.com/43540613/179760431-1120acaf-aaee-4d55-a3be-75b4aa64ded9.png" width="500"/>
 
 The plot of residuals versus predicted values is useful for checking the assumption of linearity and homoscedasticity. If the model does not meet the linear model assumption, we would expect to see residuals that are very large (big positive value or big negative value). To assess the assumption of linearity we want to ensure that the residuals are not too far away from 0 (standardized values less than -2 or greater than 2 are deemed problematic). To assess if the homoscedasticity assumption is met we look to make sure that there is no pattern in the residuals and that they are equally spread around the y = 0 line.
