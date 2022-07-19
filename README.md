@@ -235,7 +235,10 @@ https://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/R/R5_Correlation-Regression/R5_Co
 
 The goodness of fit of a statistical model describes how well it fits a set of observations. Measures of goodness of fit typically summarize the discrepancy between observed values and the values expected under the model in question. Such measures can be used in statistical hypothesis testing, e.g. to test for normality of residuals, to test whether two samples are drawn from identical distributions (see Kolmogorov–Smirnov test), or whether outcome frequencies follow a specified distribution (see Pearson's chi-square test). In the analysis of variance, one of the components into which the variance is partitioned may be a lack-of-fit sum of squares.
 
+The Coefficient of Determination, also denoted as R2, is the proportion of variation in the observed values explained by the regression equation. In other words, R2 is a statistical measure of how well the regression line approximates the real data points; thus, it is a measure of the goodness of fit of the model.
+
 https://www.harshaash.com/R/chi-sq-goodness-of-fit/
+https://www.geo.fu-berlin.de/en/v/soga/Basics-of-statistics/Linear-Regression/Simple-Linear-Regression/Model-Diagnostic/index.html
 
 #### Homogeneity of Variance (aka Homoscedasity)
 <img src="https://user-images.githubusercontent.com/43540613/179358453-5e83822b-b3e8-4a84-9364-8a643ac81586.png" width="500"/>
