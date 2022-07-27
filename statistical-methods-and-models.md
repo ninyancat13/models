@@ -103,7 +103,11 @@ Reference: https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-
 PCA is defined as an orthogonal linear transformation that transforms the data to a new coordinate system such that the greatest variance by some scalar projection of the data comes to lie on the first coordinate (called the first principal component), the second greatest variance on the second coordinate, and so on.
 
 https://towardsdatascience.com/principal-component-analysis-pca-explained-visually-with-zero-math-1cbf392b9e7d#:~:text=PCA%20is%20defined%20as%20an,second%20coordinate%2C%20and%20so%20on.
+
 ## Stochastic models
+A variable or process is stochastic if there is uncertainty or randomness involved in the outcomes. Stochastic is a synonym for random and probabilistic, although is different from non-deterministic. Many machine learning algorithms are stochastic because they explicitly use randomness during optimization or learning.
+
+An example of a stochastic model is a Markov Chain.
 
 ### Markov Chains
 <img src="https://user-images.githubusercontent.com/43540613/172156982-0dc7ae61-8155-4c03-97ca-8bea67113f0c.png" width="500"/>
@@ -208,7 +212,6 @@ https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test
 https://www.southampton.ac.uk/passs/full_time_education/bivariate_analysis/chi_square.page
 https://philschatz.com/statistics-book/contents/m47082.html
 https://www.jmp.com/en_be/statistics-knowledge-portal/chi-square-test.html
-
 
 
 ## Common Statistical Assumptions
