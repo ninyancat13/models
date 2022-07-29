@@ -88,7 +88,21 @@ There are four assumptions associated with a linear regression model.
 <img src="https://user-images.githubusercontent.com/43540613/174483309-b4e010d3-deeb-4284-9881-e291f8944913.png" width="500"/>
 
 ### Clustering
-There are many different types of clustering algorithms
+There are many different types of clustering algorithms.
+
+#### Density-based
+In density-based clustering, data is grouped by areas of high concentrations of data points surrounded by areas of low concentrations of data points. Basically the algorithm finds the places that are dense with data points and calls those clusters. The great thing about this is that the clusters can be any shape. You aren't constrained to expected conditions. The clustering algorithms under this type don't try to assign outliers to clusters, so they get ignored.
+
+#### Distribution-based
+With a distribution-based clustering approach, all of the data points are considered parts of a cluster based on the probability that they belong to a given cluster. It works like this: there is a center-point, and as the distance of a data point from the center increases, the probability of it being a part of that cluster decreases. If you aren't sure of how the distribution in your data might be, you should consider a different type of algorithm.
+
+#### Centroid-based
+Centroid-based clustering is the one you probably hear about the most. It's a little sensitive to the initial parameters you give it, but it's fast and efficient. These types of algorithms separate data points based on multiple centroids in the data. Each data point is assigned to a cluster based on its squared distance from the centroid. This is the most commonly used type of clustering.
+
+#### Hierarchical-based
+Hierarchical-based clustering is typically used on hierarchical data, like you would get from a company database or taxonomies. It builds a tree of clusters so everything is organized from the top-down. This is more restrictive than the other clustering types, but it's perfect for specific kinds of data sets.
+
+https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/
 
 ### K-means clustering algorithm
 K-means clustering is the most commonly used clustering algorithm. It's a centroid-based algorithm and the simplest unsupervised learning algorithm. This algorithm tries to minimize the variance of data points within a cluster. It's also how most people are introduced to unsupervised machine learning.
