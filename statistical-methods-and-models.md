@@ -84,6 +84,21 @@ There are four assumptions associated with a linear regression model.
 - Independence: Observations are independent of each other.
 - Normality: For any fixed value of X, Y is normally distributed.
 
+Ridge and Lasso Regression
+In short, ridge regression and lasso are regression techniques optimized for prediction, rather than inference.
+
+Normal regression gives you unbiased regression coefficients (maximum likelihood estimates "as observed in the data-set").
+Ridge and lasso regression allow you to regularize ("shrink") coefficients. This means that the estimated coefficients are pushed towards 0, to make them work better on new data-sets ("optimized for prediction"). This allows you to use complex models and avoid over-fitting at the same time.
+
+For both ridge and lasso you have to set a so-called "meta-parameter" that defines how aggressive regularization is performed. Meta-parameters are usually chosen by cross-validation. For Ridge regression the meta-parameter is often called "alpha" or "L2"; it simply defines regularization strength. For LASSO the meta-parameter is often called "lambda", or "L1". In contrast to Ridge, the LASSO regularization will actually set less-important predictors to 0 and help you with choosing the predictors that can be left out of the model. The two methods are combined in "Elastic Net" Regularization. Here, both parameters can be set, with "L2" defining regularization strength and "L1" the desired sparseness of results.
+
+https://towardsdatascience.com/ridge-regression-for-better-usage-2f19b3a202db
+https://stats.stackexchange.com/questions/251708/when-to-use-ridge-regression-and-lasso-regression-what-can-be-achieved-while-us
+
+R^2
+How accurate do you think the model is? Do we have any evaluation metric, so that we can check this? Actually we have a quantity, known as R-Square.
+R-Square: It determines how much of the total variation in Y (dependent variable) is explained by the variation in X (independent variable). 
+
 ## Unsupervised Models
 <img src="https://user-images.githubusercontent.com/43540613/174483309-b4e010d3-deeb-4284-9881-e291f8944913.png" width="500"/>
 
