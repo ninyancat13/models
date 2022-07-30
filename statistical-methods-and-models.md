@@ -91,18 +91,23 @@ There are four assumptions associated with a linear regression model.
 There are many different types of clustering algorithms.
 
 #### Density-based
+![image](https://user-images.githubusercontent.com/43540613/181906552-46a74c00-caaa-4ebe-a58f-9d748b623836.png)
 In density-based clustering, data is grouped by areas of high concentrations of data points surrounded by areas of low concentrations of data points. Basically the algorithm finds the places that are dense with data points and calls those clusters. The great thing about this is that the clusters can be any shape. You aren't constrained to expected conditions. The clustering algorithms under this type don't try to assign outliers to clusters, so they get ignored.
 
 #### Distribution-based
+![image](https://user-images.githubusercontent.com/43540613/181906577-488598c2-c55f-4f09-8bec-d7d9278ac0f0.png)
 With a distribution-based clustering approach, all of the data points are considered parts of a cluster based on the probability that they belong to a given cluster. It works like this: there is a center-point, and as the distance of a data point from the center increases, the probability of it being a part of that cluster decreases. If you aren't sure of how the distribution in your data might be, you should consider a different type of algorithm.
 
-#### Centroid-based
+#### Centroid-based (Partitioning)
+![image](https://user-images.githubusercontent.com/43540613/181906604-a19e156c-2617-4e9d-9e5f-a1e9bf7857ee.png)
 Centroid-based clustering is the one you probably hear about the most. It's a little sensitive to the initial parameters you give it, but it's fast and efficient. These types of algorithms separate data points based on multiple centroids in the data. Each data point is assigned to a cluster based on its squared distance from the centroid. This is the most commonly used type of clustering.
 
 #### Hierarchical-based
+![image](https://user-images.githubusercontent.com/43540613/181906588-0cca19cc-71ba-4b37-b88e-56728982c5cb.png)
 Hierarchical-based clustering is typically used on hierarchical data, like you would get from a company database or taxonomies. It builds a tree of clusters so everything is organized from the top-down. This is more restrictive than the other clustering types, but it's perfect for specific kinds of data sets.
 
 https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/
+https://www.educba.com/types-of-clustering/
 
 ### K-means clustering algorithm
 K-means clustering is the most commonly used clustering algorithm. It's a centroid-based algorithm and the simplest unsupervised learning algorithm. This algorithm tries to minimize the variance of data points within a cluster. It's also how most people are introduced to unsupervised machine learning.
