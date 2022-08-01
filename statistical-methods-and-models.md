@@ -97,7 +97,14 @@ https://stats.stackexchange.com/questions/251708/when-to-use-ridge-regression-an
 
 #### R^2
 How accurate do you think the model is? Do we have any evaluation metric, so that we can check this? Actually we have a quantity, known as R-Square.
-R-Square: It determines how much of the total variation in Y (dependent variable) is explained by the variation in X (independent variable). 
+R-Square: It determines how much of the total variation in Y (dependent variable) is explained by the variation in X (independent variable).
+
+The only drawback of R2 is that if new predictors (X) are added to our model, R2 only increases or remains constant but it never decreases. We can not judge that by increasing complexity of our model, are we making it more accurate?
+
+That is why, we use “Adjusted R-Square”.
+
+#### Adjusted R^2 
+The Adjusted R-Square is the modified form of R-Square that has been adjusted for the number of predictors in the model. It incorporates model’s degree of freedom. The adjusted R-Square only increases if the new term improves the model accuracy.
 
 ## Unsupervised Models
 <img src="https://user-images.githubusercontent.com/43540613/174483309-b4e010d3-deeb-4284-9881-e291f8944913.png" width="500"/>
