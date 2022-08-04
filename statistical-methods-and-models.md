@@ -93,6 +93,8 @@ There are four assumptions associated with a linear regression model.
 
 In machine learning different people will use different cost functions for different applications, but the squared error cost function is by far the most commonly used one for linear regression and for that matter, for all regression problems where it seems to give good results for many applications. 
 
+That's how in linear regression you use the cost function to find the value of w that minimizes J. In the more general case where we had parameters w and b rather than just w, you find the values of w and b that minimize J. To summarize, you saw plots of both f and J and worked through how the two are related. As you vary w or vary w and b you end up with different straight lines and when that straight line passes across the data, the cause J is small. The goal of linear regression is to find the parameters w or w and b that results in the smallest possible value for the cost function J
+
 Reference: https://www.coursera.org/learn/machine-learning/lecture/1Z0TT/cost-function-formula
 
 #### Ridge and Lasso Regression
