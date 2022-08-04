@@ -84,6 +84,13 @@ There are four assumptions associated with a linear regression model.
 - Independence: Observations are independent of each other.
 - Normality: For any fixed value of X, Y is normally distributed.
 
+#### Cost Function
+<img src="https://user-images.githubusercontent.com/43540613/182857774-865093c4-6f60-4ae5-b9ec-e594bb79fcbd.png" width="500"/>
+
+In machine learning different people will use different cost functions for different applications, but the squared error cost function is by far the most commonly used one for linear regression and for that matter, for all regression problems where it seems to give good results for many applications. 
+
+Reference: https://www.coursera.org/learn/machine-learning/lecture/1Z0TT/cost-function-formula
+
 #### Ridge and Lasso Regression
 In short, ridge regression and lasso are regression techniques optimized for prediction, rather than inference.
 
