@@ -89,7 +89,10 @@ There are four assumptions associated with a linear regression model.
 * Cost function formula
 
 <img src="https://user-images.githubusercontent.com/43540613/182861420-2e1c560e-11ed-46fb-a173-1f3bbcd52acc.png" width="500"/>
-* Cost function plot
+* Cost function plot 2D - when trying to just define w (the gradient)
+
+<img src="https://user-images.githubusercontent.com/43540613/182867605-40d876ac-4382-438a-8500-ec8cea67532f.png" width="500"/>
+* Cost function plot 3D - when trying to define both w and b (the gradient and y-intercept)
 
 In machine learning different people will use different cost functions for different applications, but the squared error cost function is by far the most commonly used one for linear regression and for that matter, for all regression problems where it seems to give good results for many applications. 
 
