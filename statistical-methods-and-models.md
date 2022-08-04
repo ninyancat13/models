@@ -171,7 +171,7 @@ https://towardsdatascience.com/what-is-bayesian-statistics-used-for-37b91c2c257c
 ## How to assess model results?
 
 #### Accuracy
-![image](https://user-images.githubusercontent.com/43540613/182318213-78a743eb-1daf-40b9-96b8-1bb9cd6e386f.png)
+<img src="https://user-images.githubusercontent.com/43540613/182318213-78a743eb-1daf-40b9-96b8-1bb9cd6e386f.png" width="500"/>
 
 Very easily, you will notice that the accuracy for this model is very very high, at 99.9%!! Wow! You have hit the jackpot and holy grail (*scream and run around the room, pumping the fist in the air several times*)!
 
@@ -180,21 +180,21 @@ But...(well you know this is coming right?) what if I mentioned that the positiv
 OK, so now you realized that accuracy is not the be-all and end-all model metric to use when selecting the best model…now what?
 
 #### Precision
-![image](https://user-images.githubusercontent.com/43540613/182317834-99f35814-eb1b-471b-aa50-9589c1520fcf.png)
+<img src="https://user-images.githubusercontent.com/43540613/182317834-99f35814-eb1b-471b-aa50-9589c1520fcf.png" width="500"/>
 
 Precision talks about how precise/accurate your model is out of those predicted positive, how many of them are actual positive.
 
 Precision is a good measure to determine, when the costs of False Positive is high. For instance, email spam detection. In email spam detection, a false positive means that an email that is non-spam (actual negative) has been identified as spam (predicted spam). The email user might lose important emails if the precision is not high for the spam detection model.
 
 #### Recall
-![image](https://user-images.githubusercontent.com/43540613/182317751-0ec492a5-8cfc-41fb-bd8d-99416265ec80.png)
+<img src="https://user-images.githubusercontent.com/43540613/182317751-0ec492a5-8cfc-41fb-bd8d-99416265ec80.png" width="500"/>
 
 So Recall actually calculates how many of the Actual Positives our model captured through labeling it as Positive (True Positive). Applying the same understanding, we know that Recall shall be the model metric we use to select our best model when there is a high cost associated with False Negative.
 
 For instance, in fraud detection or sick patient detection. If a fraudulent transaction (Actual Positive) is predicted as non-fraudulent (Predicted Negative), the consequence can be very bad for the bank. Similarly, in sick patient detection. If a sick patient (Actual Positive) goes through the test and predicted as not sick (Predicted Negative). The cost associated with False Negative will be extremely high if the sickness is contagious.
 
 #### F1 Score
-![image](https://user-images.githubusercontent.com/43540613/182318283-b409a2f3-62cb-4511-a4c0-9204e447ff6d.png)
+<img src="https://user-images.githubusercontent.com/43540613/182318283-b409a2f3-62cb-4511-a4c0-9204e447ff6d.png" width="500"/>
 
 Now if you read a lot of other literature on Precision and Recall, you cannot avoid the other measure, F1 which is a function of Precision and Recall. Looking at Wikipedia, the formula is as follows:
 
