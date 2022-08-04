@@ -86,6 +86,10 @@ There are four assumptions associated with a linear regression model.
 
 #### Cost Function
 <img src="https://user-images.githubusercontent.com/43540613/182857774-865093c4-6f60-4ae5-b9ec-e594bb79fcbd.png" width="500"/>
+* Cost function formula
+
+<img src="https://user-images.githubusercontent.com/43540613/182861420-2e1c560e-11ed-46fb-a173-1f3bbcd52acc.png" width="500"/>
+* Cost function plot
 
 In machine learning different people will use different cost functions for different applications, but the squared error cost function is by far the most commonly used one for linear regression and for that matter, for all regression problems where it seems to give good results for many applications. 
 
