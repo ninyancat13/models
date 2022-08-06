@@ -111,8 +111,8 @@ Gradient descent is an efficient optimization algorithm that attempts to find a 
 If you plot the cost for a number of iterations and notice that the costs sometimes goes up and sometimes goes down, you should take that as a clear sign that gradient descent is not working properly. This could mean that there's a bug in the code. Or sometimes it could mean that your learning rate is too large. 
 
 Reference: 
-https://towardsdatascience.com/minimizing-the-cost-function-gradient-descent-a5dd6b5350e1#:~:text=Cost%20Function%20vs%20Gradient%20descent&text=Well%2C%20a%20cost%20function%20is,a%20function%20of%20multiple%20variables.
-https://www.coursera.org/learn/machine-learning/lecture/10ZVv/choosing-the-learning-rate
+- https://towardsdatascience.com/minimizing-the-cost-function-gradient-descent-a5dd6b5350e1#:~:text=Cost%20Function%20vs%20Gradient%20descent&text=Well%2C%20a%20cost%20function%20is,a%20function%20of%20multiple%20variables.
+- https://www.coursera.org/learn/machine-learning/lecture/10ZVv/choosing-the-learning-rate
 
 #### Ridge and Lasso Regression
 In short, ridge regression and lasso are regression techniques optimized for prediction, rather than inference.
