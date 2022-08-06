@@ -100,6 +100,13 @@ That's how in linear regression you use the cost function to find the value of w
 
 Reference: https://www.coursera.org/learn/machine-learning/lecture/1Z0TT/cost-function-formula
 
+#### Gradient Descent
+<img width="757" alt="image" src="https://user-images.githubusercontent.com/43540613/183251540-0005eaa7-2109-4ecc-b911-c220967c2377.png">
+<img width="843" alt="image" src="https://user-images.githubusercontent.com/43540613/183251694-2e720603-dfad-42fe-aba5-0561094aed2a.png">
+
+If you plot the cost for a number of iterations and notice that the costs sometimes goes up and sometimes goes down, you should take that as a clear sign that gradient descent is not working properly. This could mean that there's a bug in the code. Or sometimes it could mean that your learning rate is too large. 
+
+Reference: https://www.coursera.org/learn/machine-learning/lecture/10ZVv/choosing-the-learning-rate
 #### Ridge and Lasso Regression
 In short, ridge regression and lasso are regression techniques optimized for prediction, rather than inference.
 
