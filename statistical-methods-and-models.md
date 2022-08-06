@@ -101,12 +101,19 @@ That's how in linear regression you use the cost function to find the value of w
 Reference: https://www.coursera.org/learn/machine-learning/lecture/1Z0TT/cost-function-formula
 
 #### Gradient Descent
+![image](https://user-images.githubusercontent.com/43540613/183251785-39b7c70e-a57d-46d1-824f-2e6f2b8ba787.png)
+![image](https://user-images.githubusercontent.com/43540613/183251864-77949603-b573-4008-acf9-c0b88bb3acc6.png)
 <img width="757" alt="image" src="https://user-images.githubusercontent.com/43540613/183251540-0005eaa7-2109-4ecc-b911-c220967c2377.png">
 <img width="843" alt="image" src="https://user-images.githubusercontent.com/43540613/183251694-2e720603-dfad-42fe-aba5-0561094aed2a.png">
 
+Gradient descent is an efficient optimization algorithm that attempts to find a local or global minimum of the cost function. Suppose we have a function with n variables, then the gradient is the length-n vector that defines the direction in which the cost is increasing most rapidly. So in gradient descent, we follow the negative of the gradient to the point where the cost is a minimum. In machine learning, the cost function is a function to which we are applying the gradient descent algorithm.
+
 If you plot the cost for a number of iterations and notice that the costs sometimes goes up and sometimes goes down, you should take that as a clear sign that gradient descent is not working properly. This could mean that there's a bug in the code. Or sometimes it could mean that your learning rate is too large. 
 
-Reference: https://www.coursera.org/learn/machine-learning/lecture/10ZVv/choosing-the-learning-rate
+Reference: 
+https://towardsdatascience.com/minimizing-the-cost-function-gradient-descent-a5dd6b5350e1#:~:text=Cost%20Function%20vs%20Gradient%20descent&text=Well%2C%20a%20cost%20function%20is,a%20function%20of%20multiple%20variables.
+https://www.coursera.org/learn/machine-learning/lecture/10ZVv/choosing-the-learning-rate
+
 #### Ridge and Lasso Regression
 In short, ridge regression and lasso are regression techniques optimized for prediction, rather than inference.
 
