@@ -101,10 +101,10 @@ That's how in linear regression you use the cost function to find the value of w
 Reference: https://www.coursera.org/learn/machine-learning/lecture/1Z0TT/cost-function-formula
 
 #### Gradient Descent
-![image](https://user-images.githubusercontent.com/43540613/183251785-39b7c70e-a57d-46d1-824f-2e6f2b8ba787.png)
-![image](https://user-images.githubusercontent.com/43540613/183251864-77949603-b573-4008-acf9-c0b88bb3acc6.png)
-<img width="757" alt="image" src="https://user-images.githubusercontent.com/43540613/183251540-0005eaa7-2109-4ecc-b911-c220967c2377.png">
-<img width="843" alt="image" src="https://user-images.githubusercontent.com/43540613/183251694-2e720603-dfad-42fe-aba5-0561094aed2a.png">
+<img src="https://user-images.githubusercontent.com/43540613/183251785-39b7c70e-a57d-46d1-824f-2e6f2b8ba787.png" width="350"/>
+<img src="https://user-images.githubusercontent.com/43540613/183251864-77949603-b573-4008-acf9-c0b88bb3acc6.png" width="350"/>
+<img src="https://user-images.githubusercontent.com/43540613/183251540-0005eaa7-2109-4ecc-b911-c220967c2377.png" width="350"/>
+<img src="https://user-images.githubusercontent.com/43540613/183251694-2e720603-dfad-42fe-aba5-0561094aed2a.png" width="350"/>
 
 Gradient descent is an efficient optimization algorithm that attempts to find a local or global minimum of the cost function. Suppose we have a function with n variables, then the gradient is the length-n vector that defines the direction in which the cost is increasing most rapidly. So in gradient descent, we follow the negative of the gradient to the point where the cost is a minimum. In machine learning, the cost function is a function to which we are applying the gradient descent algorithm.
 
