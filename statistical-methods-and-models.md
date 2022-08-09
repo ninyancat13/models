@@ -130,7 +130,6 @@ How accurate do you think the model is? Do we have any evaluation metric, so tha
 R-Square: It determines how much of the total variation in Y (dependent variable) is explained by the variation in X (independent variable).
 
 The only drawback of R2 is that if new predictors (X) are added to our model, R2 only increases or remains constant but it never decreases. We can not judge that by increasing complexity of our model, are we making it more accurate?
-
 That is why, we use “Adjusted R-Square”.
 
 #### Adjusted R^2 
@@ -171,9 +170,10 @@ Reference: https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-
 ### Dimension Reduction Techniques
 
 ### PCA
-PCA is defined as an orthogonal linear transformation that transforms the data to a new coordinate system such that the greatest variance by some scalar projection of the data comes to lie on the first coordinate (called the first principal component), the second greatest variance on the second coordinate, and so on.
+PCA is defined as an orthogonal linear transformation that transforms the data to a new coordinate system such that the greatest variance by some scalar projection of the data comes to lie on the first coordinate (called the first principal component), the second greatest variance on the second coordinate, and so on. It allows you to summarize the information content in large data tables by means of a smaller set of “summary indices” that can be more easily visualized and analyzed. 
 
-https://towardsdatascience.com/principal-component-analysis-pca-explained-visually-with-zero-math-1cbf392b9e7d#:~:text=PCA%20is%20defined%20as%20an,second%20coordinate%2C%20and%20so%20on.
+https://towardsdatascience.com/principal-component-analysis-pca-explained-visually-with-zero-math-1cbf392b9e7d#:~:text=PCA%20is%20defined%20as%20an,second%20coordinate%2C%20and%20so%20on
+https://www.sartorius.com/en/knowledge/science-snippets/what-is-principal-component-analysis-pca-and-how-it-is-used-507186#:~:text=Principal%20component%20analysis%2C%20or%20PCA,more%20easily%20visualized%20and%20analyzed.
 
 ## Stochastic models
 A variable or process is stochastic if there is uncertainty or randomness involved in the outcomes. Stochastic is a synonym for random and probabilistic, although is different from non-deterministic. Many machine learning algorithms are stochastic because they explicitly use randomness during optimization or learning.
