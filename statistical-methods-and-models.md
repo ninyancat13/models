@@ -137,7 +137,7 @@ R-Square: It determines how much of the total variation in Y (dependent variable
 The only drawback of R2 is that if new predictors (X) are added to our model, R2 only increases or remains constant but it never decreases. We can not judge that by increasing complexity of our model, are we making it more accurate?
 That is why, we use “Adjusted R-Square”.
 
-#### Adjusted R^2 
+##### Adjusted R^2 
 The Adjusted R-Square is the modified form of R-Square that has been adjusted for the number of predictors in the model. It incorporates model’s degree of freedom. The adjusted R-Square only increases if the new term improves the model accuracy.
 
 ## Unsupervised Models
