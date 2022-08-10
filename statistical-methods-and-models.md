@@ -168,7 +168,6 @@ K-means is best used on smaller data sets because it iterates over all of the da
 Reference: https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/
 
 ### Dimension Reduction Techniques
-
 ### PCA
 PCA is defined as an orthogonal linear transformation that transforms the data to a new coordinate system such that the greatest variance by some scalar projection of the data comes to lie on the first coordinate (called the first principal component), the second greatest variance on the second coordinate, and so on. It allows you to summarize the information content in large data tables by means of a smaller set of “summary indices” that can be more easily visualized and analyzed. 
 
@@ -193,7 +192,6 @@ And a post with more information:
 - https://towardsdatascience.com/introduction-to-markov-chains-50da3645a50d
 
 ## Other
-
 ### Bayesian Statistics
  The solution is a statistical technique called Bayesian inference. This technique begins with our stating prior beliefs about the system being modelled, allowing us to encode expert opinion and domain-specific knowledge into our system. These beliefs are combined with data to constrain the details of the model. Then, when used to make a prediction, the model doesn’t give one answer, but rather a distribution of likely answers, allowing us to assess risks.
 https://towardsdatascience.com/what-is-bayesian-statistics-used-for-37b91c2c257c
@@ -315,9 +313,7 @@ https://www.southampton.ac.uk/passs/full_time_education/bivariate_analysis/chi_s
 https://philschatz.com/statistics-book/contents/m47082.html
 https://www.jmp.com/en_be/statistics-knowledge-portal/chi-square-test.html
 
-
 ## Common Statistical Assumptions
-
 #### Regression Model Diagnostic Checking in R
 <img src="https://user-images.githubusercontent.com/43540613/179760431-1120acaf-aaee-4d55-a3be-75b4aa64ded9.png" width="500"/>
 
@@ -463,7 +459,6 @@ By sampling with replacement some observations may be repeated in each new train
 In the case of Bagging, any element has the same probability to appear in a new data set.
 However, for Boosting the observations are weighted and therefore some of them will take part in the new sets more often.
 These multiple sets are used to train the same learner algorithm and therefore different classifiers are produced.
-
 
 ## General References
 https://www.linkedin.com/pulse/how-decide-which-model-use-anil-mahanty/
