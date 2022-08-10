@@ -114,7 +114,12 @@ Reference:
 - https://towardsdatascience.com/minimizing-the-cost-function-gradient-descent-a5dd6b5350e1#:~:text=Cost%20Function%20vs%20Gradient%20descent&text=Well%2C%20a%20cost%20function%20is,a%20function%20of%20multiple%20variables.
 - https://www.coursera.org/learn/machine-learning/lecture/10ZVv/choosing-the-learning-rate
 
-#### Ridge and Lasso Regression
+#### Regularization
+This is a form of regression, that constrains/ regularizes or shrinks the coefficient estimates towards zero. In other words, this technique discourages learning a more complex or flexible model, so as to avoid the risk of overfitting. Aka Regularization refers to techniques that are used to calibrate machine learning models in order to minimize the adjusted loss function and prevent overfitting or underfitting. There are mainly two types of regularization techniques, namely Ridge Regression and Lasso Regression. The way they assign a penalty to β (coefficients) is what differentiates them from each other.
+
+https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a
+
+##### Ridge and Lasso Regression
 In short, ridge regression and lasso are regression techniques optimized for prediction, rather than inference.
 
 Normal regression gives you unbiased regression coefficients (maximum likelihood estimates "as observed in the data-set").
