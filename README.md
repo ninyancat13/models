@@ -1,3 +1,3 @@
-# ninas-notes
+# stat-notes
 
 Notes on statistical concepts.
