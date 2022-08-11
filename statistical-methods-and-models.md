@@ -127,6 +127,10 @@ Ridge and lasso regression allow you to regularize ("shrink") coefficients. This
 
 For both ridge and lasso you have to set a so-called "meta-parameter" that defines how aggressive regularization is performed. Meta-parameters are usually chosen by cross-validation. For Ridge regression the meta-parameter is often called "alpha" or "L2"; it simply defines regularization strength. For LASSO the meta-parameter is often called "lambda", or "L1". In contrast to Ridge, the LASSO regularization will actually set less-important predictors to 0 and help you with choosing the predictors that can be left out of the model. The two methods are combined in "Elastic Net" Regularization. Here, both parameters can be set, with "L2" defining regularization strength and "L1" the desired sparseness of results.
 
+#### How is Ridge different to Lasso?
+Similar to the lasso regression, ridge regression puts a similar constraint on the coefficients by introducing a penalty factor. However, while lasso regression takes the magnitude of the coefficients, ridge regression takes the square. Ridge regression is also referred to as L2 Regularization.
+
+https://www.datacamp.com/tutorial/tutorial-lasso-ridge-regression
 https://towardsdatascience.com/ridge-regression-for-better-usage-2f19b3a202db
 https://stats.stackexchange.com/questions/251708/when-to-use-ridge-regression-and-lasso-regression-what-can-be-achieved-while-us
 
