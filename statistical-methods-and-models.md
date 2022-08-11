@@ -17,7 +17,8 @@ The random forest algorithm is an extension of the bagging method as it utilizes
 Note: What is an ensemble method?
 Ensemble learning methods are made up of a set of classifiers - e.g. decision trees and their predictions are aggregated to identify the most popular result. The most well-known ensemble methods are bagging, also known as bootstrap aggregation, and boosting. In bagging, a random sample of data in a training set is selected with replacement - meaning that the individual data points can be chosen more than once. After several data samples are generated, these models are then trained independently, and depending on the type of task - i.e. regression or classification - the average or majority of those predictions yield a more accurate estimate. This approach is commonly used to reduce variance within a noisy dataset.
 
-Reference: https://www.ibm.com/cloud/learn/random-forest
+Reference: 
+https://www.ibm.com/cloud/learn/random-forest
 
 ### XGBoost - eXtreme Gradient Boosting
 <img src="https://user-images.githubusercontent.com/43540613/174069237-f11c7d37-7276-494a-98b2-4812a222c4ae.png" width="500"/>
@@ -27,7 +28,8 @@ Boosting is an ensemble technique where new models are added to correct the erro
 This approach supports both regression and classification predictive modeling problems.
 One of the most important differences between XG Boost and Random forest is that the XGBoost always gives more importance to functional space when reducing the cost of a model while Random Forest tries to give more preferences to hyperparameters to optimize the model.
 
-Reference: https://medium.com/geekculture/xgboost-versus-random-forest-898e42870f30
+Reference: 
+https://medium.com/geekculture/xgboost-versus-random-forest-898e42870f30
 
 ### LightGBM - Light Gradient Boosting
 <img src="https://user-images.githubusercontent.com/43540613/174068978-0e01ca65-953a-4993-b681-720e7ad54888.png" width="500"/>
@@ -37,7 +39,7 @@ Light Gradient Boosted Machine, or LightGBM for short, is an open-source library
 As such, LightGBM has become a de facto algorithm for machine learning competitions when working with tabular data for regression and classification predictive modeling tasks. As such, it owns a share of the blame for the increased popularity and wider adoption of gradient boosting methods in general, along with Extreme Gradient Boosting (XGBoost).
 
 Reference: 
-- https://machinelearningmastery.com/light-gradient-boosted-machine-lightgbm-ensemble/
+https://machinelearningmastery.com/light-gradient-boosted-machine-lightgbm-ensemble/
 
 ### Light GBM or XGBoost?
 <img src="https://user-images.githubusercontent.com/43540613/174068302-c3561bd1-7055-4dce-95c9-30dd1b368b54.png" width="500"/>
@@ -51,16 +53,17 @@ Reference:
 - H2O’s implementation of XGBoost provides the above feature as well which is not yet provided by XGBoost’s original library.
 - Hyperparameter tuning is extremely important in both algorithms.
 
-References:
-- https://neptune.ai/blog/xgboost-vs-lightgbm
-- https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/
+Reference:
+https://neptune.ai/blog/xgboost-vs-lightgbm
+https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/
 
 ### Adaboost
 AdaBoost is short for Adaptive Boosting. AdaBoost was the first successful boosting algorithm developed for binary classification. Also, it is the best starting point for understanding boosting algorithms. It is adaptive in the sense that subsequent classifiers built are tweaked in favour of those instances misclassified by previous classifiers. It is sensitive to noisy data and outliers. 
 
 AdaBoost uses multiple iterations to generate a single composite strong learner. It creates a strong learner by iteratively adding weak learners. During each phase of training, a new weak learner is added to the ensemble, and a weighting vector is adjusted to focus on examples that were misclassified in previous rounds. The result is a classifier that has higher accuracy than the weak learner classifiers.
 
-Reference: https://www.mygreatlearning.com/blog/xgboost-algorithm/
+Reference: 
+https://www.mygreatlearning.com/blog/xgboost-algorithm/
 
 ### Logistic Regression
 <img src="https://user-images.githubusercontent.com/43540613/172834151-b83706d1-713a-4153-819b-fdbd098dac5e.png" width="500"/>
@@ -98,7 +101,8 @@ In machine learning different people will use different cost functions for diffe
 
 That's how in linear regression you use the cost function to find the value of w that minimizes J. In the more general case where we had parameters w and b rather than just w, you find the values of w and b that minimize J. To summarize, you saw plots of both f and J and worked through how the two are related. As you vary w or vary w and b you end up with different straight lines and when that straight line passes across the data, the cause J is small. The goal of linear regression is to find the parameters w or w and b that results in the smallest possible value for the cost function J.
 
-Reference: https://www.coursera.org/learn/machine-learning/lecture/1Z0TT/cost-function-formula
+Reference: 
+https://www.coursera.org/learn/machine-learning/lecture/1Z0TT/cost-function-formula
 
 #### Gradient Descent
 <img src="https://user-images.githubusercontent.com/43540613/183251785-39b7c70e-a57d-46d1-824f-2e6f2b8ba787.png" width="500"/>
@@ -111,12 +115,13 @@ Gradient descent is an efficient optimization algorithm that attempts to find a 
 If you plot the cost for a number of iterations and notice that the costs sometimes goes up and sometimes goes down, you should take that as a clear sign that gradient descent is not working properly. This could mean that there's a bug in the code. Or sometimes it could mean that your learning rate is too large. 
 
 Reference: 
-- https://towardsdatascience.com/minimizing-the-cost-function-gradient-descent-a5dd6b5350e1#:~:text=Cost%20Function%20vs%20Gradient%20descent&text=Well%2C%20a%20cost%20function%20is,a%20function%20of%20multiple%20variables.
-- https://www.coursera.org/learn/machine-learning/lecture/10ZVv/choosing-the-learning-rate
+https://towardsdatascience.com/minimizing-the-cost-function-gradient-descent-a5dd6b5350e1#:~:text=Cost%20Function%20vs%20Gradient%20descent&text=Well%2C%20a%20cost%20function%20is,a%20function%20of%20multiple%20variables.
+https://www.coursera.org/learn/machine-learning/lecture/10ZVv/choosing-the-learning-rate
 
 #### Regularization
 This is a form of regression, that constrains/ regularizes or shrinks the coefficient estimates towards zero. In other words, this technique discourages learning a more complex or flexible model, so as to avoid the risk of overfitting. Aka Regularization refers to techniques that are used to calibrate machine learning models in order to minimize the adjusted loss function and prevent overfitting or underfitting. There are mainly two types of regularization techniques, namely Ridge Regression and Lasso Regression. The way they assign a penalty to β (coefficients) is what differentiates them from each other.
 
+Reference: 
 https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a
 
 ##### Ridge and Lasso Regression
@@ -130,6 +135,7 @@ For both ridge and lasso you have to set a so-called "meta-parameter" that defin
 #### How is Ridge different to Lasso?
 Similar to the lasso regression, ridge regression puts a similar constraint on the coefficients by introducing a penalty factor. However, while lasso regression takes the magnitude of the coefficients, ridge regression takes the square. Ridge regression is also referred to as L2 Regularization.
 
+Reference: 
 https://www.datacamp.com/tutorial/tutorial-lasso-ridge-regression
 https://towardsdatascience.com/ridge-regression-for-better-usage-2f19b3a202db
 https://stats.stackexchange.com/questions/251708/when-to-use-ridge-regression-and-lasso-regression-what-can-be-achieved-while-us
@@ -166,6 +172,7 @@ Centroid-based clustering is the one you probably hear about the most. It's a li
 <img src="https://user-images.githubusercontent.com/43540613/181906588-0cca19cc-71ba-4b37-b88e-56728982c5cb.png" width="350"/>
 Hierarchical-based clustering is typically used on hierarchical data, like you would get from a company database or taxonomies. It builds a tree of clusters so everything is organized from the top-down. This is more restrictive than the other clustering types, but it's perfect for specific kinds of data sets.
 
+Reference: 
 https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/
 https://www.educba.com/types-of-clustering/
 
@@ -174,12 +181,14 @@ K-means clustering is the most commonly used clustering algorithm. It's a centro
 
 K-means is best used on smaller data sets because it iterates over all of the data points. That means it'll take more time to classify data points if there are a large amount of them in the data set. Since this is how k-means clusters data points, it doesn't scale well.
 
-Reference: https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/
+Reference: 
+https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/
 
 ### Dimension Reduction Techniques
 ### PCA
 PCA is defined as an orthogonal linear transformation that transforms the data to a new coordinate system such that the greatest variance by some scalar projection of the data comes to lie on the first coordinate (called the first principal component), the second greatest variance on the second coordinate, and so on. It allows you to summarize the information content in large data tables by means of a smaller set of “summary indices” that can be more easily visualized and analyzed. 
 
+Reference: 
 https://towardsdatascience.com/principal-component-analysis-pca-explained-visually-with-zero-math-1cbf392b9e7d#:~:text=PCA%20is%20defined%20as%20an,second%20coordinate%2C%20and%20so%20on
 https://www.sartorius.com/en/knowledge/science-snippets/what-is-principal-component-analysis-pca-and-how-it-is-used-507186#:~:text=Principal%20component%20analysis%2C%20or%20PCA,more%20easily%20visualized%20and%20analyzed.
 
@@ -194,15 +203,15 @@ An example of a stochastic model is a Markov Chain.
 The main goal of the Markov process is to identify the probability of transitioning from one state to another. This is one of the main appeals to Markov, that the future state of a stochastic variable is only dependent on its present state.
 Markov Chains are exceptionally useful in order to model a discrete-time, discrete space Stochastic Process of various domains like Finance (stock price movement), NLP Algorithms (Finite State Transducers, Hidden Markov Model for POS Tagging), or even in Engineering Physics (Brownian motion). 
 
-Great video going through the basics:
-- https://www.youtube.com/watch?v=i3AkTO9HLXo
-
-And a post with more information:
-- https://towardsdatascience.com/introduction-to-markov-chains-50da3645a50d
+Reference: 
+https://www.youtube.com/watch?v=i3AkTO9HLXo
+https://towardsdatascience.com/introduction-to-markov-chains-50da3645a50d
 
 ## Other
 ### Bayesian Statistics
  The solution is a statistical technique called Bayesian inference. This technique begins with our stating prior beliefs about the system being modelled, allowing us to encode expert opinion and domain-specific knowledge into our system. These beliefs are combined with data to constrain the details of the model. Then, when used to make a prediction, the model doesn’t give one answer, but rather a distribution of likely answers, allowing us to assess risks.
+ 
+Reference: 
 https://towardsdatascience.com/what-is-bayesian-statistics-used-for-37b91c2c257c
 
 ## How to assess model results?
@@ -237,6 +246,7 @@ Now if you read a lot of other literature on Precision and Recall, you cannot av
 
 F1 Score is needed when you want to seek a balance between Precision and Recall. Right... so what is the difference between F1 Score and Accuracy then? We have previously seen that accuracy can be largely contributed by a large number of True Negatives which in most business circumstances, we do not focus on much whereas False Negative and False Positive usually has business costs (tangible & intangible) thus F1 Score might be a better measure to use if we need to seek a balance between Precision and Recall AND there is an uneven class distribution (large number of Actual Negatives).
 
+Reference:
 https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9
 
 ## Data comparison
@@ -269,7 +279,8 @@ A two-way ANOVA is an extension of the one-way ANOVA. With a one-way, you have o
 
 The three-way ANOVA is used by statisticians to determine whether there is a three-way relationship among variables on an outcome. It determines what effect, if any, three factors had on an outcome. Three-way ANOVAs are useful for gaining an understanding of complex interactions where more than one variable may influence the result 
 
-Reference for all 3 images above: https://www.datanovia.com/en/lessons/repeated-measures-anova-in-r/
+Img reference:
+https://www.datanovia.com/en/lessons/repeated-measures-anova-in-r/
 
 #### Four-way ANOVA (four independent groups, one dependent)
 <img src="https://user-images.githubusercontent.com/43540613/178746976-b1a3fa1c-8f02-45b8-8f4b-18d108265365.png" width="500"/>
@@ -285,9 +296,12 @@ Factor 4: psychotherapy (yes, no) 2 groups
 In a factorial design, you examine average scores on an outcome variable (such as anxiety) for all possible combinations of groups or levels. In this example you would have 2 x 3 x 3 x 2 = 36 different combinations; one combination of conditions would be male, low drug dose, middle aged, no psychotherapy. If you want to have at least 10 people for each combination of conditions,, you would need 2 x 3 x 3 x 2 x 10 = 360 people total.
 
 Usually the main point of a factorial design is to evaluate interactions (for example, does increasing drug dose have a different effect on the outcome for males versus females?). It is very common to have 2 way factorials, and fairly common to have 3 way factorial design. It is rare to have 4 and 5 way factorials - you begin to need a very large number of people to fill up all the groups, and the interactions among multiple variables start to become very complicated.
+
+Reference:
 https://www.quora.com/What-is-a-4-way-ANOVA
 
-Img reference: https://www.researchgate.net/figure/Four-way-ANOVA-analysis-of-differences-in-resistance-to-oxidative-stress-depending-on-sex_fig4_361190166
+Img reference: 
+https://www.researchgate.net/figure/Four-way-ANOVA-analysis-of-differences-in-resistance-to-oxidative-stress-depending-on-sex_fig4_361190166
 
 #### MANOVA (multiple dependent variables, one independent group)
 <img src="https://user-images.githubusercontent.com/43540613/178747211-58735788-1661-4d8c-81a8-44e8fce7ad7c.png" width="500"/>
@@ -301,6 +315,8 @@ Manova is a bit confusing so here is more information regarding how one independ
 Now the Q is, do 2-way or 3-way MANOVAs exist?
 Yes!
 The two-way multivariate analysis of variance (two-way MANOVA) is often considered as an extension of the two-way ANOVA for situations where there are two or more dependent variables. The primary purpose of the two-way MANOVA is to understand if there is an interaction between the two independent variables on the two or more combined dependent variables.
+
+Reference: 
 https://www.amstatisticalconsulting.com/banking-fees-2-11/
 
 Img reference: 
@@ -316,7 +332,7 @@ Pearson's chi-squared test is used to assess three types of comparison: goodness
 - A test of homogeneity compares the distribution of counts for two or more groups using the same categorical variable (e.g. choice of activity—college, military, employment, travel—of graduates of a high school reported a year after graduation, sorted by graduation year, to see if number of graduates choosing a given activity has changed from class to class, or from decade to decade).[2]
 - A test of independence assesses whether observations consisting of measures on two variables, expressed in a contingency table, are independent of each other (e.g. polling responses from people of different nationalities to see if one's nationality is related to the response).
 
-References:
+Reference:
 https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test
 https://www.southampton.ac.uk/passs/full_time_education/bivariate_analysis/chi_square.page
 https://philschatz.com/statistics-book/contents/m47082.html
@@ -338,6 +354,7 @@ The fourth plot is of "Cook's distance", which is a measure of the influence of 
 
 Outliers may or may not be influential points. Influential outliers are of the greatest concern. They should never be disregarded. Careful scrutiny of the original data may reveal an error in data entry that can be corrected. If they remain excluded from the final fitted model, they must be noted in the final report or paper.
 
+Reference:
 https://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/R/R5_Correlation-Regression/R5_Correlation-Regression7.html
 
 #### Goodness of Fit
@@ -347,6 +364,7 @@ The goodness of fit of a statistical model describes how well it fits a set of o
 
 The Coefficient of Determination, also denoted as R^2, is the proportion of variation in the observed values explained by the regression equation. In other words, R^2 is a statistical measure of how well the regression line approximates the real data points; thus, it is a measure of the goodness of fit of the model.
 
+Reference: 
 https://www.harshaash.com/R/chi-sq-goodness-of-fit/
 https://www.geo.fu-berlin.de/en/v/soga/Basics-of-statistics/Linear-Regression/Simple-Linear-Regression/Model-Diagnostic/index.html
 
@@ -358,11 +376,15 @@ https://www.geo.fu-berlin.de/en/v/soga/Basics-of-statistics/Linear-Regression/Si
 Data from multiple groups have the same variance. Homogeneity of variance is an assumption underlying both t tests and F tests (analyses of variance, ANOVAs) in which the population variances (i.e., the distribution, or “spread,” of scores around the mean) of two or more samples are considered equal.
 
 Simply put, homoscedasticity means “having the same scatter.” For it to exist in a set of data, the points must be about the same distance from the line, as shown in the picture above. 
+
+Reference: 
 https://www.statisticshowto.com/homoscedasticity/
 
 ##### How to test for homogeneity of variance?
 We can use F-test to compare the variances of two samples. 
 Bartlett’s Test or Levene’s Test to compare the variances of multiple samples.
+
+Reference: 
 http://www.sthda.com/english/wiki/statistical-tests-and-assumptions
 
 #### Normality
@@ -376,6 +398,8 @@ The normal probability qq plot above is a graphical technique to identify substa
 With large enough sample sizes (n > 30) the violation of the normality assumption should not cause major problems (central limit theorem). This implies that we can ignore the distribution of the data and use parametric tests.
 
 However, to be consistent, we can use Shapiro-Wilk’s significance test comparing the sample distribution to a normal one in order to ascertain whether data show or not a serious deviation from normality.
+
+Reference: 
 http://www.sthda.com/english/wiki/statistical-tests-and-assumptions
 
 #### Linearity
@@ -394,6 +418,8 @@ Multiple Linear regression:
 3. Independence: The observations are independent.
 4. Homoscedasticity: The residuals have constant variance at every point in the linear model.
 5. Multivariate Normality: The residuals of the model are normally distributed.
+
+Reference: 
 https://www.statology.org/multiple-linear-regression-assumptions/
 
 ## Ensemble Learning 
@@ -402,6 +428,8 @@ Ensemble learning algorithms combine the predictions of two or more models.
 The idea of ensemble learning is closely related to the idea of the “wisdom of crowds“. This is where many different independent decisions, choices or estimates are combined into a final outcome that is often more accurate than any single contribution. They lead to better robustness and better predictions in our data.
 
 We now have standardised models that apply ensemble learning for us. For example XGBoost, random forest, weighted averages.
+
+Reference: 
 https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
 
 ### Bagging and Boosting
@@ -435,6 +463,7 @@ Boosting works as follows:
 8. Similarly, multiple models are created, each correcting the errors of the previous model.
 9. The final model (strong learner) is the weighted mean of all the models (weak learners).
 
+Reference: 
 https://gaussian37.github.io/ml-concept-bagging/
 https://www.youtube.com/watch?v=UeYG64Hm7Es
 https://www.kaggle.com/code/prashant111/bagging-vs-boosting/notebook
@@ -469,6 +498,6 @@ In the case of Bagging, any element has the same probability to appear in a new 
 However, for Boosting the observations are weighted and therefore some of them will take part in the new sets more often.
 These multiple sets are used to train the same learner algorithm and therefore different classifiers are produced.
 
-## General References
+## Other references
 https://www.linkedin.com/pulse/how-decide-which-model-use-anil-mahanty/
 
