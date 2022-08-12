@@ -24,4 +24,6 @@ pip download --destination-directory DIR -r requirements.txt
 ```
 
 ## Adding features to zsh
-`vim ~/.zshrc`
+```
+vim ~/.zshrc
+```
