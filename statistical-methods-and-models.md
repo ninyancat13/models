@@ -62,9 +62,26 @@ Reference:
 ### Logistic Regression
 <img src="https://user-images.githubusercontent.com/43540613/172834151-b83706d1-713a-4153-819b-fdbd098dac5e.png" width="500"/>
 Logistic regression is a process of modeling the probability of a discrete outcome given an input variable. The most common logistic regression models a binary outcome; something that can take two values such as true/false, yes/no, and so on.
-
 #### Should I use logistic regression or a decision tree?
 Decision Trees are non-linear classifiers; they do not require data to be linearly separable. When you are sure that your data set divides into two separable parts, then use a Logistic Regression. If you're not sure, then go with a Decision Tree. A Decision Tree will take care of both.
+
+In a nutshell, by looking at historical data, logistic regression can predict whether:
+
+- An email is a spam
+- It’ll rain today
+- A tumor is fatal
+- An individual will purchase a car
+- An online transaction is fraudulent
+- A contestant will win an election
+- A group of users will buy a product
+- An insurance policyholder will expire before the policy term expires
+- A promotional email receiver is a responder or non-responder
+
+In essence, logistic regression helps solve probability and classification problems. In other words, you can expect only classification and probability outcomes from logistic regression. For example, it can be used to determine the probability of something being “true or false” and also for deciding between two outcomes like “yes or no”. A logistic regression model can also help classify data for extract, transform, and load (ETL) operations. Logistic regression shouldn't be used if the number of observations is less than the number of features. Otherwise, it may lead to overfitting.
+
+Reference: 
+- https://www.youtube.com/watch?v=yIYKR4sgzI8
+- https://learn.g2.com/logistic-regression#:~:text=Logistic%20regression%20analysis%20is%20valuable,An%20email%20is%20a%20spam
 
 ### Linear Regression
 <img src="https://user-images.githubusercontent.com/43540613/173571597-06618223-084e-464e-8bdd-9d9b1502a125.png" width="500"/>
