@@ -1,5 +1,5 @@
 # Statistical Methods and Models
-<img src="images/screenshot.png" width="500"/>
+<img src="images/screenshot.png" width="700"/>
 Note: something like random forest or decision trees can be used for both continuous and categorical problems
   
 ## Supervised Models
