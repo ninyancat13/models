@@ -17,6 +17,18 @@ Ensemble learning methods are made up of a set of classifiers - e.g. decision tr
 Reference: 
 - https://www.ibm.com/cloud/learn/random-forest
 
+### RF vs decision tree?
+If the goal is better predictions, we should prefer RF, to reduce the variance.
+If the goal is exploratory analysis, we should prefer a single DT , as to understand the data relationship in a tree hierarchy structure. E.g. for stakeholders, knowing why you came to this conclusion may be better explained by decision tree. Decision Trees are more intuitive than Random Forests and thus are easier to explain to a non technical person. They are a good choice of model if you are ok trading a lower accuracy for model transparency and simplicity.
+
+Other reasons to use decision tree:
+- when we want a simple model
+- when entire dataset and features can be used
+- when we have limited computational power
+- when we are not worried about accuracy on future datasets.
+
+Reference: https://www.kaggle.com/discussions/getting-started/60582
+
 ### XGBoost - eXtreme Gradient Boosting
 <img src="https://user-images.githubusercontent.com/43540613/174069237-f11c7d37-7276-494a-98b2-4812a222c4ae.png" width="500"/>
 Boosting is an ensemble technique where new models are added to correct the errors made by existing models. Models are added sequentially until no further improvements can be made. A popular example is the AdaBoost algorithm that weights data points that are hard to predict. Gradient boosting is an approach where new models are created that predict the residuals or errors of prior models and then added together to make the final prediction. It is called gradient boosting because it uses a gradient descent algorithm to minimize the loss when adding new models.
