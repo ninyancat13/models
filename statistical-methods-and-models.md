@@ -162,7 +162,7 @@ Reference:
 How accurate do you think the model is? Do we have any evaluation metric, so that we can check this? Actually we have a quantity, known as R-Square.
 R-Square: It determines how much of the total variation in Y (dependent variable) is explained by the variation in X (independent variable).
 
-The only drawback of R2 is that if new predictors (X) are added to our model, R2 only increases or remains constant but it never decreases. We can not judge that by increasing complexity of our model, are we making it more accurate?
+The only drawback of R^2 is that if new predictors (X) are added to our model, R2 only increases or remains constant but it never decreases. We can not judge that by increasing complexity of our model, are we making it more accurate?
 That is why, we use “Adjusted R-Square”.
 
 ##### Adjusted R^2 
@@ -488,6 +488,16 @@ By sampling with replacement some observations may be repeated in each new train
 In the case of Bagging, any element has the same probability to appear in a new data set.
 However, for Boosting the observations are weighted and therefore some of them will take part in the new sets more often.
 These multiple sets are used to train the same learner algorithm and therefore different classifiers are produced.
+
+## When is a sample large enough?
+The Large Enough Sample Condition tests whether you have a large enough sample size compared to the population. A general rule of thumb for the Large Enough Sample Condition is that n≥30, where n is your sample size. However, it depends on what you are trying to accomplish and what you know about the distribution. In general, the Large Enough Sample Condition applies if any of these conditions are true:
+- You have a symmetric distribution or unimodal distribution without outliers: a sample size of 15 is “large enough.”
+- You have a moderately skewed distribution, that’s unimodal without outliers; If your sample size is between 16 and 40, it’s “large enough.”
+- Your sample size is >40, as long as you do not have outliers.
+- Your population has a normal distribution.
+
+Reference:
+- https://www.statisticshowto.com/large-enough-sample-condition/
 
 ## Other references
 - https://www.linkedin.com/pulse/how-decide-which-model-use-anil-mahanty/
