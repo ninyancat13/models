@@ -8,7 +8,7 @@ https://towardsdatascience.com/seaborn-can-do-the-job-then-why-matplotlib-dac8d2
 
 ## Pandas
 ### Why do we use pandas loc when we already have something like df['time']?
-** tl;dr: Always use pandas where you can (it is the better, more robust way of manipulating dataframes)
+** tl;dr: Always use loc where you can (it is the better, more robust way of manipulating dataframes). Although having said this, many courses (EdX, Datacamp) will simply use df[['column_1', 'column_2']] for selecting multiple columns). 
 
 - Explicit is better than implicit.
 df[boolean_mask] selects rows where boolean_mask is True, but there is a corner case when you might not want it to: when df has boolean-valued column labels. Thus, df[boolean_mask] does not always behave the same as df.loc[boolean_mask]. Even though this is arguably an unlikely use case, I would recommend always using df.loc[boolean_mask] instead of df[boolean_mask] because the meaning of df.loc's syntax is explicit. With df.loc[indexer] you know automatically that df.loc is selecting rows. In contrast, it is not clear if df[indexer] will select rows or columns (or raise ValueError) without knowing details about indexer and df.
