@@ -52,6 +52,16 @@ https://stackoverflow.com/questions/31593201/how-are-iloc-and-loc-different/3159
 
 
 ### Why pandas python syntax can seem inconsistent (compared to a similar package such as dplr in R)?
+Example of differences:
+```
+iris
+    .loc[:, ['SepalLength', 'PetalWidth', 'Species']]
+    .where(iris['SepalLength'] > 4.6)
+    .assign(PetalWidthx2 = lambda x_iris: x_iris['PetalWidth'] * 2)
+    .groupby('Species')
+    .agg({'SepalLength': 'mean', 'PetalWidthx2': 'std'}))
+```
+
 It is because pandas needs to conform to Python's existing syntax rules, which are pretty strict with respect to what unquoted symbols can represent (basically objects in the current scope). 
 
 https://stackoverflow.com/questions/44060100/seemingly-inconsistent-column-reference-syntax-when-chaining-methods-on-pandas-d
