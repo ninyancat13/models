@@ -77,11 +77,12 @@ https://stackoverflow.com/questions/44060100/seemingly-inconsistent-column-refer
 
 ### When to use df.column_name vs df['column_name'] (another inconsistency in python)
 ** tl;dr: does not really matter. Can use either.
+The general rule is that:
 
-If your column is written Number of Sales
-You should use df[‘Number of Sales’]
+- If your column is written Number of Sales
+`You should use df[‘Number of Sales’]`
 
-If it’s written number_of_sales
-Then, go for the df.number_of_sales
+- If it’s written number_of_sales
+`Then, go for the df.number_of_sales`
 
 https://forum.freecodecamp.org/t/pandas-df-var-vs-df-var/409112
