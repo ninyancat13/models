@@ -14,4 +14,33 @@ There are many ways to handle missing data in Statistics:
 - Mean imputation or median imputation
 - Using random forests, which support the missing values
 
+### Why do we use pandas loc when we already have something like df['time']?
 
+- Explicit is better than implicit.
+df[boolean_mask] selects rows where boolean_mask is True, but there is a corner case when you might not want it to: when df has boolean-valued column labels. Thus, df[boolean_mask] does not always behave the same as df.loc[boolean_mask]. Even though this is arguably an unlikely use case, I would recommend always using df.loc[boolean_mask] instead of df[boolean_mask] because the meaning of df.loc's syntax is explicit. With df.loc[indexer] you know automatically that df.loc is selecting rows. In contrast, it is not clear if df[indexer] will select rows or columns (or raise ValueError) without knowing details about indexer and df.
+
+
+- df.loc[row_indexer, column_index] can select rows and columns. df[indexer] can only select rows or columns depending on the type of values in indexer and the type of column values df has (again, are they boolean?).
+```
+In [237]: df2.loc[[True,False,True], 'B']
+Out[237]: 
+0    3
+2    5
+Name: B, dtype: int64
+```
+
+- When a slice is passed to df.loc the end-points are included in the range. When a slice is passed to df[...], the slice is interpreted as a half-open interval:
+```
+In [239]: df2.loc[1:2]
+Out[239]: 
+   A  B
+1  2  4
+2  3  5
+
+In [271]: df2[1:2]
+Out[271]: 
+   A  B
+1  2  4
+```
+
+https://stackoverflow.com/questions/38886080/python-pandas-series-why-use-loc
