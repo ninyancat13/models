@@ -77,6 +77,7 @@ https://stackoverflow.com/questions/44060100/seemingly-inconsistent-column-refer
 
 ### When to use df.column_name vs df['column_name']
 ** tl;dr: does not really matter. Can use either.
+
 The general rule is that:
 
 - If your column is written Number of Sales
