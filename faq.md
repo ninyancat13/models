@@ -80,9 +80,9 @@ https://stackoverflow.com/questions/44060100/seemingly-inconsistent-column-refer
 The general rule is that:
 
 - If your column is written Number of Sales
-`You should use df[‘Number of Sales’]`
+```You should use df[‘Number of Sales’]```
 
 - If it’s written number_of_sales
-`Then, go for the df.number_of_sales`
+```Then, go for the df.number_of_sales```
 
 https://forum.freecodecamp.org/t/pandas-df-var-vs-df-var/409112
