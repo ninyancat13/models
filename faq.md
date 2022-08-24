@@ -74,3 +74,14 @@ https://stackoverflow.com/questions/44060100/seemingly-inconsistent-column-refer
 - Comprehensive article: https://www.listendata.com/2019/07/how-to-filter-pandas-dataframe.html
 - Medium article (easy to read): https://towardsdatascience.com/8-ways-to-filter-pandas-dataframes-d34ba585c1b8
 - where vs filter: https://stackoverflow.com/questions/57227966/filtering-rows-in-pandas-where-vs-binary-filter
+
+### When to use df.column_name vs df['column_name'] (another inconsistency in python)
+** tl;dr: does not really matter. Can use either.
+
+If your column is written Number of Sales
+You should use df[‘Number of Sales’]
+
+If it’s written number_of_sales
+Then, go for the df.number_of_sales
+
+https://forum.freecodecamp.org/t/pandas-df-var-vs-df-var/409112
