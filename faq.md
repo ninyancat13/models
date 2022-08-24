@@ -51,3 +51,7 @@ df.iloc[:df.index.get_loc('c') + 1, :4]
 https://stackoverflow.com/questions/31593201/how-are-iloc-and-loc-different/31593712#31593712
 
 
+### Why pandas python syntax can seem inconsistent (compared to a similar package such as dplr in R)?
+It is because pandas needs to conform to Python's existing syntax rules, which are pretty strict with respect to what unquoted symbols can represent (basically objects in the current scope). 
+
+https://stackoverflow.com/questions/44060100/seemingly-inconsistent-column-reference-syntax-when-chaining-methods-on-pandas-d
