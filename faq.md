@@ -75,7 +75,7 @@ https://stackoverflow.com/questions/44060100/seemingly-inconsistent-column-refer
 - Medium article (easy to read): https://towardsdatascience.com/8-ways-to-filter-pandas-dataframes-d34ba585c1b8
 - where vs filter: https://stackoverflow.com/questions/57227966/filtering-rows-in-pandas-where-vs-binary-filter
 
-### When to use df.column_name vs df['column_name'] (another inconsistency in python)
+### When to use df.column_name vs df['column_name']
 ** tl;dr: does not really matter. Can use either.
 The general rule is that:
 
