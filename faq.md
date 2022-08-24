@@ -35,3 +35,19 @@ Out[271]:
 ```
 
 https://stackoverflow.com/questions/38886080/python-pandas-series-why-use-loc
+
+### Difference between loc and iloc and combining the two together?
+The main distinction between the two methods is:
+- loc gets rows (and/or columns) with particular labels.
+- iloc gets rows (and/or columns) at integer locations.
+
+loc's label-querying capabilities extend well-beyond integer indexes and it's worth highlighting a couple of additional examples.
+
+Combining iloc and loc (aka when we want to find data via integer position and label)
+```
+df.iloc[:df.index.get_loc('c') + 1, :4]
+```
+
+https://stackoverflow.com/questions/31593201/how-are-iloc-and-loc-different/31593712#31593712
+
+
