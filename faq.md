@@ -51,7 +51,7 @@ df.iloc[:df.index.get_loc('c') + 1, :4]
 https://stackoverflow.com/questions/31593201/how-are-iloc-and-loc-different/31593712#31593712
 
 
-### Why pandas python syntax can seem inconsistent (compared to a similar package such as dplr in R)?
+### Why Pandas Python syntax can seem inconsistent (compared to a similar package such as dplr in R)?
 Example of differences:
 ```
 iris
@@ -65,3 +65,9 @@ iris
 It is because pandas needs to conform to Python's existing syntax rules, which are pretty strict with respect to what unquoted symbols can represent (basically objects in the current scope). 
 
 https://stackoverflow.com/questions/44060100/seemingly-inconsistent-column-reference-syntax-when-chaining-methods-on-pandas-d
+
+
+### All the many ways to filter in Pandas
+Comprehensive article: https://www.listendata.com/2019/07/how-to-filter-pandas-dataframe.html
+medium article (easy to read): https://towardsdatascience.com/8-ways-to-filter-pandas-dataframes-d34ba585c1b8
+where vs filter: https://stackoverflow.com/questions/57227966/filtering-rows-in-pandas-where-vs-binary-filter
