@@ -68,6 +68,6 @@ https://stackoverflow.com/questions/44060100/seemingly-inconsistent-column-refer
 
 
 ### All the many ways to filter in Pandas
-Comprehensive article: https://www.listendata.com/2019/07/how-to-filter-pandas-dataframe.html
-medium article (easy to read): https://towardsdatascience.com/8-ways-to-filter-pandas-dataframes-d34ba585c1b8
-where vs filter: https://stackoverflow.com/questions/57227966/filtering-rows-in-pandas-where-vs-binary-filter
+- Comprehensive article: https://www.listendata.com/2019/07/how-to-filter-pandas-dataframe.html
+- Medium article (easy to read): https://towardsdatascience.com/8-ways-to-filter-pandas-dataframes-d34ba585c1b8
+- where vs filter: https://stackoverflow.com/questions/57227966/filtering-rows-in-pandas-where-vs-binary-filter
