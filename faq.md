@@ -93,4 +93,5 @@ Then, go for the df.number_of_sales
 https://forum.freecodecamp.org/t/pandas-df-var-vs-df-var/409112
 
 ### How to make pandas code efficient?
+
 https://www.youtube.com/watch?v=HN5d490_KKk
