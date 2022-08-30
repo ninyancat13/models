@@ -199,7 +199,13 @@ K-means clustering is the most commonly used clustering algorithm. It's a centro
 
 K-means is best used on smaller data sets because it iterates over all of the data points. That means it'll take more time to classify data points if there are a large amount of them in the data set. Since this is how k-means clusters data points, it doesn't scale well.
 
+#### K-fold cross validation
+Cross-validation is a statistical method used to estimate the skill of machine learning models.
+
+It is commonly used in applied machine learning to compare and select a model for a given predictive modeling problem because it is easy to understand, easy to implement, and results in skill estimates that generally have a lower bias than other methods.
+
 Reference: 
+- https://machinelearningmastery.com/k-fold-cross-validation/
 - https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/
 
 ### Dimension Reduction Techniques
@@ -385,8 +391,7 @@ Reference:
 - https://www.statisticshowto.com/homoscedasticity/
 
 ##### How to test for homogeneity of variance?
-We can use F-test to compare the variances of two samples. 
-Bartlett’s Test or Levene’s Test to compare the variances of multiple samples.
+We can use F-test to compare the variances of two samples. Bartlett’s Test or Levene’s Test to compare the variances of multiple samples.
 
 Reference: 
 - http://www.sthda.com/english/wiki/statistical-tests-and-assumptions
