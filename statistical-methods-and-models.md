@@ -74,6 +74,7 @@ Reference:
 ### Logistic Regression
 <img src="https://user-images.githubusercontent.com/43540613/172834151-b83706d1-713a-4153-819b-fdbd098dac5e.png" width="500"/>
 Logistic regression is a process of modeling the probability of a discrete outcome given an input variable. The most common logistic regression models a binary outcome; something that can take two values such as true/false, yes/no, and so on.
+
 #### Should I use logistic regression or a decision tree?
 Decision Trees are non-linear classifiers; they do not require data to be linearly separable. When you are sure that your data set divides into two separable parts, then use a Logistic Regression. If you're not sure, then go with a Decision Tree. A Decision Tree will take care of both.
 
@@ -209,6 +210,7 @@ Reference:
 - https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/
 
 ### Dimension Reduction Techniques
+
 ### PCA
 PCA is defined as an orthogonal linear transformation that transforms the data to a new coordinate system such that the greatest variance by some scalar projection of the data comes to lie on the first coordinate (called the first principal component), the second greatest variance on the second coordinate, and so on. It allows you to summarize the information content in large data tables by means of a smaller set of “summary indices” that can be more easily visualized and analyzed. 
 
@@ -229,6 +231,7 @@ Reference:
 - https://towardsdatascience.com/introduction-to-markov-chains-50da3645a50d
 
 ## Other
+
 ### Bayesian Statistics
  The solution is a statistical technique called Bayesian inference. This technique begins with our stating prior beliefs about the system being modelled, allowing us to encode expert opinion and domain-specific knowledge into our system. These beliefs are combined with data to constrain the details of the model. Then, when used to make a prediction, the model doesn’t give one answer, but rather a distribution of likely answers, allowing us to assess risks.
  
@@ -266,6 +269,7 @@ Reference:
 - https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9
 
 ## Data comparison
+
 ### T-test
 <img src="https://user-images.githubusercontent.com/43540613/178744667-cdd7f783-8707-43bb-9177-4e8ebd687dbf.png" width="500"/>
 The Student's t test is used to compare the means between two groups, whereas ANOVA is used to compare the means among three or more groups.
@@ -349,6 +353,7 @@ Reference:
 - https://www.jmp.com/en_be/statistics-knowledge-portal/chi-square-test.html
 
 ## Common Statistical Assumptions
+
 #### Why test statistical assumptions?
 Nearly all statistical tests make specific statistical assumptions about the data being analyzed. If the assumptions are not met, then the test will give questionable results and shouldn’t be used. The assumptions are often related to sample sizes and the nature of the distributions of the data values themselves. This article overviews these types of assumptions for binomials to give you a feel for what they are and why they matter.
 
