@@ -6,4 +6,5 @@
 - https://towardsdatascience.com/over-100-data-scientist-interview-questions-and-answers-c5a66186769a
 
 ## Scenario-based Qs
-https://www.kaggle.com/general/231361
+- Model-intensive Qs from Kaggle https://www.kaggle.com/general/231361
+- Sandeep, an ex-Google data scientist and PhD student at the University of Minnesota, answers an A/B testing mock interview question: https://www.youtube.com/watch?v=2sWVLMVQsu0 
