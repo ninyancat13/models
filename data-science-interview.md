@@ -10,6 +10,9 @@
 - Model-intensive Qs from Kaggle 
   - https://www.kaggle.com/general/231361
 
+- Business type Qs
+  - https://towardsdatascience.com/from-business-question-to-data-science-task-55a49f471a0c
+
 ## A/B Testing
 - Sandeep, an ex-Google data scientist and PhD student at the University of Minnesota, answers an A/B testing mock interview question:
   - https://www.youtube.com/watch?v=2sWVLMVQsu0 
